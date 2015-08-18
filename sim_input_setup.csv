@@ -1,0 +1,5 @@
+dim,bdgt_dim,id_dim
+all_count,dma_count,dma_name
+0,channel_count,channel_name
+0,msg_count,msg_name
+0,0,all_name

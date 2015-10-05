@@ -1,7 +1,6 @@
 library(data.table)
 setwd("d:\\BOA Optimizer\\2014 T3\\roll up final curves\\")
 ex.curve=fread("opt_modelinput_curve_npv.csv")
-ex.cpp=fread("opt_modelinput_cpp.csv")
 ex.dim=fread("sim_input_dim.csv")
 learn.rate.start=1e-8
 x.factor=1 # the spend used to fit curve is actuall spend/x.factor

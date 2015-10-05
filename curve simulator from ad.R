@@ -1,9 +1,9 @@
 ##########################################################################################
 # SETUP
 ##########################################################################################
-library(data.table);library(bit64)
-setwd("d:\\Archives\\R Code\\Curve simulator\\")
-learn.rate.start=1e-5 # the start point of learn rate for fitting curves (vary from curve file to curve file)
+# library(data.table);library(bit64)
+# setwd("d:\\Archives\\Git\\curve-simulation\\")
+# learn.rate.start=1e-5 # the start point of learn rate for fitting curves (vary from curve file to curve file)
 ex.curve=fread("sim_modelinput_curve.csv")
 ex.dim=fread("sim_input_setup.csv")
 ##########################################################################################
@@ -15,14 +15,14 @@ for (i in 1:length(dim.id)){
   tempid=dim.id[i]
   temp=data.table(a=unique(ex.curve[[tempid]]))
   temp$id=1:nrow(temp)
-  setnames(temp,names(temp),c(dim.id[i],paste(unlist(strsplit(dim.id[i],"_name")),"_count",sep="")))
+  setnames(temp,names(temp),c(dim.id[i],paste(unlist(strsplit(dim.id[i],"_name")),"_id",sep="")))
   ex.curve=merge(ex.curve,temp,by=dim.id[i],all.x=T)
 }
 
 # check sumup dim
 bdgt_dim=ex.dim$bdgt_dim[ex.dim$bdgt_dim!=0]
 dim=ex.dim$dim[ex.dim$dim!=0]
-if(sum(dim %in% bdgt_dim)==0) bdgt_dim1="all_count" else bdgt_dim1=dim[dim %in% bdgt_dim]
+if(sum(dim %in% bdgt_dim)==0) bdgt_dim1="all_id" else bdgt_dim1=dim[dim %in% bdgt_dim]
 
 
 # compute current spend and npv
@@ -57,7 +57,7 @@ colnames(npv_mat)=paste("npv_",1:length(percent),sep="")
 
 # fit curves
 npv_mat=data.table(cbind(curve_fit[,c(dim),with=F],npv_mat))
-sp_mat=data.table(cbind(curve_fit[,c(bdgt_dim,"all_count"),with=F],sp_mat))
+sp_mat=data.table(cbind(curve_fit[,c(bdgt_dim,"all_id"),with=F],sp_mat))
 sp_mat_shrink=sp_mat[!duplicated(sp_mat[,c(bdgt_dim),with=F]),]
 
 sp_fit=sp_mat_shrink[,lapply(.SD,sum,na.rm=T),by=c(bdgt_dim1)]
@@ -94,12 +94,13 @@ final$a=final$a*final$npv/final$npv_p
 
 # output
 final$bdgt_id=do.call(paste, c(final[bdgt_dim1], sep = "_"))
-dim.name=paste(as.vector(do.call(cbind,strsplit(dim,"_count"))),"_name",sep="")
+dim.name=paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")
 match=ex.curve[,c(dim,dim.name),with=F] 
 match=match[!duplicated(match[,dim,with=F])]
 
 final=merge(final,match,by=c(dim),all.x=T)
-final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_count"))),"_name",sep="")], sep = "_"))
+final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")], sep = "_"))
+#setnames(final,"sp_current","spend")
 
 # export files
 write.csv(final,"sim_output_curve.csv",row.names=F)

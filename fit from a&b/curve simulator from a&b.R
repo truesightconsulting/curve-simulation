@@ -1,6 +1,6 @@
 library(data.table)
-setwd("d:\\BOA Optimizer\\2014 T3\\roll up final curves\\")
-ex.curve=fread("opt_modelinput_curve_npv.csv")
+setwd("d:\\Archives\\Git\\curve-simulation\\fit from a&b\\")
+ex.curve=fread("opt_modelinput_curve.csv")
 ex.dim=fread("sim_input_dim.csv")
 learn.rate.start=1e-8
 x.factor=1 # the spend used to fit curve is actuall spend/x.factor
@@ -10,20 +10,21 @@ seed=1088 # for generate random number to tweak curves
 ##########################################################################################
 bdgt_dim=ex.dim$bdgt_dim[ex.dim$bdgt_dim!=0]
 dim=ex.dim$dim[ex.dim$dim!=0]
-if(sum(dim %in% bdgt_dim)==0) bdgt_dim1="all_count" else bdgt_dim1=dim[dim %in% bdgt_dim]
+if(sum(dim %in% bdgt_dim)==0) bdgt_dim1="all_id" else bdgt_dim1=dim[dim %in% bdgt_dim]
 
+curve=ex.curve
 curve$b1=curve$b/curve$cpp
 
 # agg current spend and decomp
 setkey(curve,"bdgt_id")
 for.sp=unique(curve)
-sp_current=for.sp[,list(sp_current=sum(sp_current)),by=c(bdgt_dim1)]
+spend=for.sp[,list(spend=sum(sp)),by=c(bdgt_dim1)]
 
 
 # generate spend points
-percent=c(seq(0,8,by=.1),9:20)
+percent=c(seq(0,8,by=.01),9:20)
 percent_mat=matrix(rep(percent,nrow(curve)),nr=nrow(curve),byrow=T)
-sp_mat=curve$sp_current*percent_mat
+sp_mat=curve$sp*percent_mat
 colnames(sp_mat)=paste("sp_",1:length(percent),sep="")
 
 # generate npv points
@@ -36,7 +37,7 @@ colnames(npv_mat)=paste("npv_",1:length(percent),sep="")
 
 # combine spend and npv data
 npv_mat=data.table(cbind(curve[,c(dim),with=F],npv_mat))
-sp_mat=data.table(cbind(curve[,c(bdgt_dim,"all_count"),with=F],sp_mat))
+sp_mat=data.table(cbind(curve[,c(bdgt_dim,"all_id"),with=F],sp_mat))
 sp_mat_shrink=sp_mat[!duplicated(sp_mat[,c(bdgt_dim),with=F]),]
 
 sp_fit=sp_mat_shrink[,lapply(.SD,sum,na.rm=T),by=c(bdgt_dim1)]
@@ -67,21 +68,19 @@ for (i in 1:nrow(curve_fit_final)){
   a[i] <- coef(nl.reg)[1]
 }
 
-if (length(dim)==1&dim=="all") {
-
+if (length(dim)==1&dim=="overall") {
   match=ex.curve[,dim,with=F]
   match=match[unique(dim)] 
-
   }else {
-  dim.name=paste(as.vector(do.call(cbind,strsplit(dim,"_count"))),"_name",sep="")
+  dim.name=paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")
   match=ex.curve[,c(dim,dim.name),with=F] 
   match=match[!duplicated(match[,dim,with=F])]
 }
 
 final=data.frame(curve_fit_final[,dim,with=F],a=a,b=b)
 final=merge(final,match,by=c(dim),all.x=T)
-final=merge(final,sp_current,by=c(dim),all.x=T)
-final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_count"))),"_name",sep="")], sep = "_"))
+final=merge(final,spend,by=c(dim),all.x=T)
+final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")], sep = "_"))
 final=data.table(final)
-final=final[,':='(predicted=a*(1-exp(-b*sp_current)))]
+final=final[,':='(predicted=a*(1-exp(-b*spend)))]
 write.csv(final,"sim_output_curve.csv",row.names=F)

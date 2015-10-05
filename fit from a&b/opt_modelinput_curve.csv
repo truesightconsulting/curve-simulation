@@ -1,0 +1,244 @@
+dma1_id,chan1_id,sales1_id,all_id,a,b,bdgt_id,dma1_name,chan1_name,sales1_name,all_name,clv,cpp,curvegroup_id,curvegroup_name,sp
+1,1,1,1,27.77948364,5.47E-05,1_1,New York,TV Cable,Bundle,overall,4995,1,1,weekly,86991.37209
+1,10,1,1,71.58959428,3.37E-05,1_10,New York,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003069785,1,weekly,19244.53496
+1,11,1,1,39.58439561,2.19E-05,1_11,New York,Hispanic - DM,Bundle,overall,4995,1,1,weekly,42954.348
+1,12,1,1,272.7194076,2.33E-06,1_12,New York,TV Spot,Bundle,overall,4995,1,1,weekly,642325.14
+1,13,1,1,29.84136076,2.17E-05,1_13,New York,Radio,Bundle,overall,4995,474.2321311,1,weekly,89206.78333
+1,14,1,1,15.42433513,5.18E-05,1_14,New York,Hispanic - Display,Bundle,overall,4995,1,1,weekly,22583.54615
+1,15,1,1,10.53629944,0.000229766,1_15,New York,Asian,Bundle,overall,4995,1,1,weekly,34164.4451
+1,16,1,1,13.88944114,0.000480448,1_16,New York,OOH,Bundle,overall,4995,1,1,weekly,34848.91221
+1,17,1,1,3.687307173,0.001269969,1_17,New York,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,16491.03467
+1,18,1,1,70.37872161,2.97E-05,1_18,New York,Hispanic - Radio,Bundle,overall,4995,1,1,weekly,43834.38727
+1,19,1,1,24.93988352,0.00013643,1_19,New York,Hispanic - DRTV,Bundle,overall,4995,1,1,weekly,130830.5105
+1,2,1,1,125.605592,1.16E-05,1_2,New York,Online Display - Awareness - Display,Bundle,overall,4995,0.005822839,1,weekly,50282.32331
+1,20,1,1,7.661302857,1.86E-05,1_20,New York,Hispanic - TV,Bundle,overall,4995,1,1,weekly,92318.184
+1,3,1,1,4.000637999,0.000870801,1_3,New York,Online Display - Awareness - Mobile,Bundle,overall,4995,0.003883074,1,weekly,4402.86791
+1,4,1,1,80.59535837,4.57E-05,1_4,New York,Online Display - Awareness - OLV,Bundle,overall,4995,0.019392811,1,weekly,47809.64585
+1,5,1,1,96.7317247,8.34E-06,1_5,New York,DRTV,Bundle,overall,4995,1499.716012,1,weekly,118846.87
+1,6,1,1,328.6299164,2.00E-05,1_6,New York,Direct Mail,Bundle,overall,4995,0.379648343,1,weekly,315331.5541
+1,7,1,1,16.51092524,1.85E-05,1_7,New York,Newspaper,Bundle,overall,4995,0.051804927,1,weekly,41127.32533
+1,8,1,1,286.9938342,0.000168378,1_8,New York,Shared Mail,Bundle,overall,4995,0.034442709,1,weekly,123844.3816
+1,9,1,1,188.2250225,7.74E-05,1_9,New York,Online Display - Acquisition - Display,Bundle,overall,4995,0.00246373,1,weekly,112910.1067
+10,1,1,1,2.172256043,0.002016531,10_1,Providence,TV Cable,Bundle,overall,4995,1,1,weekly,2653.838372
+10,10,1,1,6.765157801,0.000552397,10_10,Providence,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.004736479,1,weekly,1105.45796
+10,11,1,1,4.507658747,0.000199332,10_11,Providence,Hispanic - DM,Bundle,overall,4995,1,1,weekly,4685.022727
+10,12,1,1,29.09380341,0.000115647,10_12,Providence,TV Spot,Bundle,overall,4995,1,1,weekly,13741.42799
+10,13,1,1,2.738540622,0.000611827,10_13,Providence,Radio,Bundle,overall,4995,55.81467796,1,weekly,4011.338889
+10,17,1,1,0.326272277,0.020246573,10_17,Providence,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,839.157
+10,2,1,1,23.18648323,0.00020217,10_2,Providence,Online Display - Awareness - Display,Bundle,overall,4995,0.005339787,1,weekly,2778.32989
+10,3,1,1,0.315931514,0.01495379,10_3,Providence,Online Display - Awareness - Mobile,Bundle,overall,4995,0.004633941,1,weekly,248.0488963
+10,4,1,1,6.385957819,0.000978029,10_4,Providence,Online Display - Awareness - OLV,Bundle,overall,4995,0.057825889,1,weekly,2746.314924
+10,5,1,1,11.10212628,0.00015485,10_5,Providence,DRTV,Bundle,overall,4995,84.95579234,1,weekly,5823.684167
+10,6,1,1,29.2713953,0.000245701,10_6,Providence,Direct Mail,Bundle,overall,4995,0.378806433,1,weekly,24320.2569
+10,7,1,1,3.073870079,0.000230072,10_7,Providence,Newspaper,Bundle,overall,4995,0.084288147,1,weekly,5394.778571
+10,8,1,1,21.06405807,0.001935941,10_8,Providence,Shared Mail,Bundle,overall,4995,0.025255622,1,weekly,9737.493659
+10,9,1,1,17.80906056,0.001414486,10_9,Providence,Online Display - Acquisition - Display,Bundle,overall,4995,0.002399238,1,weekly,6361.132773
+11,10,1,1,7.247425445,0.000527845,11_10,Norfolk,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.00320554,1,weekly,942.1516706
+11,11,1,1,3.040488987,0.000301163,11_11,Norfolk,Hispanic - DM,Bundle,overall,4995,1,1,weekly,3048.196
+11,12,1,1,25.3138286,0.000117832,11_12,Norfolk,TV Spot,Bundle,overall,4995,1,1,weekly,10252.85397
+11,13,1,1,2.190194866,0.00091235,11_13,Norfolk,Radio,Bundle,overall,4995,49.2139055,1,weekly,3566.695778
+11,2,1,1,10.37318695,0.000276911,11_2,Norfolk,Online Display - Awareness - Display,Bundle,overall,4995,0.004241662,1,weekly,2367.894794
+11,3,1,1,0.309439319,0.01552111,11_3,Norfolk,Online Display - Awareness - Mobile,Bundle,overall,4995,0.003438484,1,weekly,211.4053094
+11,4,1,1,5.512726644,0.001914433,11_4,Norfolk,Online Display - Awareness - OLV,Bundle,overall,4995,0.059573908,1,weekly,2387.421496
+11,5,1,1,6.345527052,0.000162748,11_5,Norfolk,DRTV,Bundle,overall,4995,109.6511422,1,weekly,8155.943333
+11,6,1,1,24.71632935,0.000160131,11_6,Norfolk,Direct Mail,Bundle,overall,4995,0.402485441,1,weekly,39824.92369
+11,8,1,1,15.0780762,0.002012222,11_8,Norfolk,Shared Mail,Bundle,overall,4995,0.024905048,1,weekly,8550.973171
+11,9,1,1,15.55435224,0.001937676,11_9,Norfolk,Online Display - Acquisition - Display,Bundle,overall,4995,0.00231297,1,weekly,5421.419977
+12,1,1,1,1.800918379,0.002227549,12_1,Richmond,TV Cable,Bundle,overall,4995,1,1,weekly,2004.418605
+12,10,1,1,5.968841764,0.000604116,12_10,Richmond,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.004194503,1,weekly,942.1516706
+12,11,1,1,2.852784055,0.000285849,12_11,Richmond,Hispanic - DM,Bundle,overall,4995,1,1,weekly,3211.510571
+12,12,1,1,32.18445474,9.98E-05,12_12,Richmond,TV Spot,Bundle,overall,4995,1,1,weekly,12014.2975
+12,13,1,1,2.183791836,0.001131674,12_13,Richmond,Radio,Bundle,overall,4995,41.04171039,1,weekly,2955.185556
+12,2,1,1,11.28707878,0.000205032,12_2,Richmond,Online Display - Awareness - Display,Bundle,overall,4995,0.005057273,1,weekly,2367.894794
+12,3,1,1,0.289920992,0.018728858,12_3,Richmond,Online Display - Awareness - Mobile,Bundle,overall,4995,0.004918223,1,weekly,211.4053094
+12,4,1,1,5.152467958,0.00177297,12_4,Richmond,Online Display - Awareness - OLV,Bundle,overall,4995,0.060176669,1,weekly,2387.421496
+12,5,1,1,6.91097161,0.000225087,12_5,Richmond,DRTV,Bundle,overall,4995,78.44887229,1,weekly,5088.357292
+12,6,1,1,23.13371797,0.000151988,12_6,Richmond,Direct Mail,Bundle,overall,4995,0.402485441,1,weekly,41958.64224
+12,8,1,1,17.38184972,0.001911305,12_8,Richmond,Shared Mail,Bundle,overall,4995,0.024143336,1,weekly,5195.496579
+12,9,1,1,14.54931963,0.001523042,12_9,Richmond,Online Display - Acquisition - Display,Bundle,overall,4995,0.002593983,1,weekly,5421.419977
+13,1,1,1,2.244022995,0.002290478,13_1,Harrisburg,TV Cable,Bundle,overall,4995,1,1,weekly,2068.264651
+13,10,1,1,2.325490099,0.00340055,13_10,Harrisburg,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.000704053,1,weekly,188.4303341
+13,11,1,1,1.236646992,0.002023145,13_11,Harrisburg,Hispanic - DM,Bundle,overall,4995,1,1,weekly,425.3722857
+13,2,1,1,8.198092841,0.001085896,13_2,Harrisburg,Online Display - Awareness - Display,Bundle,overall,4995,0.000898149,1,weekly,473.5789587
+13,3,1,1,0.250080839,0.074302888,13_3,Harrisburg,Online Display - Awareness - Mobile,Bundle,overall,4995,0.000708757,1,weekly,42.28106188
+13,4,1,1,3.595680507,0.008466978,13_4,Harrisburg,Online Display - Awareness - OLV,Bundle,overall,4995,0.011737387,1,weekly,477.4842992
+13,5,1,1,5.142542857,0.000129474,13_5,Harrisburg,DRTV,Bundle,overall,4995,162.078265,1,weekly,8497.121875
+13,6,1,1,9.150152498,0.000776812,13_6,Harrisburg,Direct Mail,Bundle,overall,4995,0.397636332,1,weekly,8440.60188
+13,7,1,1,7.054272007,0.000335144,13_7,Harrisburg,Newspaper,Bundle,overall,4995,0.137810545,1,weekly,6673.2
+13,8,1,1,15.81891526,0.010795414,13_8,Harrisburg,Shared Mail,Bundle,overall,4995,0.017581884,1,weekly,1795.142
+13,9,1,1,11.06668094,0.006733992,13_9,Harrisburg,Online Display - Acquisition - Display,Bundle,overall,4995,0.000481414,1,weekly,1084.283995
+14,1,1,1,0.623821482,0.003833419,14_1,Buffalo,TV Cable,Bundle,overall,4995,1,1,weekly,1159.518605
+14,10,1,1,2.121457406,0.001237768,14_10,Buffalo,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.002507332,1,weekly,552.72898
+14,11,1,1,1.246034666,0.000917968,14_11,Buffalo,Hispanic - DM,Bundle,overall,4995,1,1,weekly,932.5108571
+14,2,1,1,2.354124228,0.00039962,14_2,Buffalo,Online Display - Awareness - Display,Bundle,overall,4995,0.003168668,1,weekly,1389.164945
+14,3,1,1,0.116509789,0.032684111,14_3,Buffalo,Online Display - Awareness - Mobile,Bundle,overall,4995,0.001876466,1,weekly,124.0244482
+14,4,1,1,2.051886623,0.002263922,14_4,Buffalo,Online Display - Awareness - OLV,Bundle,overall,4995,0.041360261,1,weekly,1346.750587
+14,5,1,1,2.731997688,0.000175959,14_5,Buffalo,DRTV,Bundle,overall,4995,125.8336605,1,weekly,6315.879792
+14,6,1,1,9.707625611,0.00080972,14_6,Buffalo,Direct Mail,Bundle,overall,4995,0.375476123,1,weekly,7521.941333
+14,7,1,1,2.371365259,4.98E-05,14_7,Buffalo,Newspaper,Bundle,overall,4995,0.168725248,1,weekly,15128.665
+14,8,1,1,17.05479761,0.0102467,14_8,Buffalo,Shared Mail,Bundle,overall,4995,0.019184204,1,weekly,2122.032
+14,9,1,1,2.891720744,0.002565321,14_9,Buffalo,Online Display - Acquisition - Display,Bundle,overall,4995,0.001446197,1,weekly,3180.566387
+15,1,1,1,2.112760658,0.002061195,15_1,Syracuse,TV Cable,Bundle,overall,4995,1,1,weekly,1977.467568
+15,10,1,1,1.606210356,0.001333818,15_10,Syracuse,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003873961,1,weekly,552.72898
+15,11,1,1,1.036196702,0.001204485,15_11,Syracuse,Hispanic - DM,Bundle,overall,4995,1,1,weekly,710.6871429
+15,12,1,1,8.894189354,0.000125485,15_12,Syracuse,TV Spot,Bundle,overall,4995,1,1,weekly,10804.21163
+15,13,1,1,0.798197845,0.001616724,15_13,Syracuse,Radio,Bundle,overall,4995,26.87793271,1,weekly,1970.451111
+15,2,1,1,2.905161047,0.000389442,15_2,Syracuse,Online Display - Awareness - Display,Bundle,overall,4995,0.004124858,1,weekly,1389.164945
+15,3,1,1,0.093559422,0.033331281,15_3,Syracuse,Online Display - Awareness - Mobile,Bundle,overall,4995,0.002166382,1,weekly,124.0244482
+15,4,1,1,1.744937447,0.0022434,15_4,Syracuse,Online Display - Awareness - OLV,Bundle,overall,4995,0.046893289,1,weekly,1400.620611
+15,5,1,1,2.156000044,0.000255212,15_5,Syracuse,DRTV,Bundle,overall,4995,76.86409212,1,weekly,4463.802083
+15,6,1,1,8.072799898,0.001062455,15_6,Syracuse,Direct Mail,Bundle,overall,4995,0.375476123,1,weekly,5732.62978
+15,7,1,1,1.558887554,0.000131964,15_7,Syracuse,Newspaper,Bundle,overall,4995,0.085546896,1,weekly,11202.52
+15,8,1,1,26.70933058,0.008947312,15_8,Syracuse,Shared Mail,Bundle,overall,4995,0.022988444,1,weekly,2499.288333
+15,9,1,1,4.795567091,0.002322955,15_9,Syracuse,Online Display - Acquisition - Display,Bundle,overall,4995,0.001818448,1,weekly,3180.566387
+16,10,1,1,1.108771505,0.002557135,16_10,Other,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003819254,1,weekly,188.4303341
+16,11,1,1,0.471683785,0.003602945,16_11,Other,Hispanic - DM,Bundle,overall,4995,1,1,weekly,296.5988571
+16,13,1,1,6.651081561,0.000838119,16_13,Other,Radio,Bundle,overall,4995,549.3902439,1,weekly,4505
+16,2,1,1,0.179496025,0.00121654,16_2,Other,Online Display - Awareness - Display,Bundle,overall,4995,0.005559009,1,weekly,473.5789587
+16,3,1,1,0.025226707,0.072439405,16_3,Other,Online Display - Awareness - Mobile,Bundle,overall,4995,0.003641989,1,weekly,42.28106188
+16,4,1,1,0.515111488,0.009681434,16_4,Other,Online Display - Awareness - OLV,Bundle,overall,4995,0.038566186,1,weekly,477.4842992
+16,6,1,1,3.021509589,0.00258052,16_6,Other,Direct Mail,Bundle,overall,4995,0.396118713,1,weekly,2714.813908
+16,7,1,1,1.112519098,4.27E-05,16_7,Other,Newspaper,Bundle,overall,4995,0.271524648,1,weekly,12684.817
+16,8,1,1,2.371523554,0.001610147,16_8,Other,Shared Mail,Bundle,overall,4995,0.023235569,1,weekly,728.3805
+16,9,1,1,0.209528974,0.009837203,16_9,Other,Online Display - Acquisition - Display,Bundle,overall,4995,0.002634561,1,weekly,1084.283995
+17,1,1,1,1.112322229,0.004681307,17_1,Albany,TV Cable,Bundle,overall,4995,1,1,weekly,1111.8
+17,10,1,1,1.045452542,0.000791557,17_10,Albany,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003102702,1,weekly,829.0934702
+17,11,1,1,0.589577251,0.002350509,17_11,Albany,Hispanic - DM,Bundle,overall,4995,1,1,weekly,364.1822857
+17,2,1,1,1.563792192,0.00023196,17_2,Albany,Online Display - Awareness - Display,Bundle,overall,4995,0.005595985,1,weekly,2083.747417
+17,3,1,1,0.053598243,0.024604804,17_3,Albany,Online Display - Awareness - Mobile,Bundle,overall,4995,0.00376405,1,weekly,186.0366723
+17,4,1,1,0.956747117,0.001785363,17_4,Albany,Online Display - Awareness - OLV,Bundle,overall,4995,0.072806577,1,weekly,2059.736192
+17,5,1,1,1.575412996,0.000175516,17_5,Albany,DRTV,Bundle,overall,4995,114.1128447,1,weekly,5886.035625
+17,6,1,1,4.593283655,0.002073335,17_6,Albany,Direct Mail,Bundle,overall,4995,0.375476123,1,weekly,2937.616988
+17,7,1,1,0.860576554,0.000139613,17_7,Albany,Newspaper,Bundle,overall,4995,0.145826618,1,weekly,11822.06667
+17,8,1,1,17.26728078,0.008041615,17_8,Albany,Shared Mail,Bundle,overall,4995,0.037804571,1,weekly,2930.931667
+17,9,1,1,2.727075562,0.001412771,17_9,Albany,Online Display - Acquisition - Display,Bundle,overall,4995,0.002330804,1,weekly,4770.849579
+18,1,1,1,0.8486137,0.001427556,18_1,Palm Springs,TV Cable,Bundle,overall,4995,1,1,weekly,3016.022619
+18,10,1,1,0.803030921,0.003465818,18_10,Palm Springs,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003289477,1,weekly,175.8683118
+18,11,1,1,0.350667293,0.001541114,18_11,Palm Springs,Hispanic - DM,Bundle,overall,4995,1,1,weekly,563.274
+18,12,1,1,3.572113998,0.000143297,18_12,Palm Springs,TV Spot,Bundle,overall,4995,1,1,weekly,10020.46011
+18,13,1,1,0.397414665,0.003219413,18_13,Palm Springs,Radio,Bundle,overall,4995,13.12026836,1,weekly,971.2788889
+18,17,1,1,0.043140484,0.00412652,18_17,Palm Springs,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,728.084878
+18,2,1,1,0.641684891,0.001157287,18_2,Palm Springs,Online Display - Awareness - Display,Bundle,overall,4995,0.003381065,1,weekly,442.0070281
+18,3,1,1,0.039570264,0.088850252,18_3,Palm Springs,Online Display - Awareness - Mobile,Bundle,overall,4995,0.00333986,1,weekly,39.46232442
+18,4,1,1,0.804524585,0.005194576,18_4,Palm Springs,Online Display - Awareness - OLV,Bundle,overall,4995,0.026473784,1,weekly,445.6520126
+18,5,1,1,1.274152986,0.000169312,18_5,Palm Springs,DRTV,Bundle,overall,4995,90.20946133,1,weekly,5620.7925
+18,6,1,1,3.053682401,0.003633836,18_6,Palm Springs,Direct Mail,Bundle,overall,4995,0.408902674,1,weekly,1773.781089
+18,8,1,1,1.590440491,0.013226103,18_8,Palm Springs,Shared Mail,Bundle,overall,4995,0.019674608,1,weekly,839.6873171
+18,9,1,1,2.04497391,0.00810117,18_9,Palm Springs,Online Display - Acquisition - Display,Bundle,overall,4995,0.001714469,1,weekly,1011.998396
+2,1,1,1,30.75836515,0.000121107,2_1,"Washington, DC",TV Cable,Bundle,overall,4995,1,1,weekly,43096.58163
+2,10,1,1,30.99670547,8.38E-05,2_10,"Washington, DC",Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003126839,1,weekly,6971.922363
+2,11,1,1,17.26518121,0.001930802,2_11,"Washington, DC",Hispanic - DM,Bundle,overall,4995,1,1,weekly,344.684
+2,12,1,1,140.0882851,8.07E-06,2_12,"Washington, DC",TV Spot,Bundle,overall,4995,1,1,weekly,148512.6327
+2,13,1,1,13.83140981,7.41E-05,2_13,"Washington, DC",Radio,Bundle,overall,4995,254.375024,1,weekly,32414.64592
+2,14,1,1,3.855924939,0.00034516,2_14,"Washington, DC",Hispanic - Display,Bundle,overall,4995,1,1,weekly,3387.533462
+2,15,1,1,4.470235572,0.000950645,2_15,"Washington, DC",Asian,Bundle,overall,4995,1,1,weekly,5976.682178
+2,16,1,1,24.17703051,0.004092781,2_16,"Washington, DC",OOH,Bundle,overall,4995,1,1,weekly,5707.142857
+2,17,1,1,1.389671996,0.028540002,2_17,"Washington, DC",Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,586.97075
+2,19,1,1,14.41244742,0.001589398,2_19,"Washington, DC",Hispanic - DRTV,Bundle,overall,4995,1,1,weekly,11844.57333
+2,2,1,1,52.3260609,3.16E-05,2_2,"Washington, DC",Online Display - Awareness - Display,Bundle,overall,4995,0.005277048,1,weekly,17865.99836
+2,3,1,1,1.582630694,0.003017614,2_3,"Washington, DC",Online Display - Awareness - Mobile,Bundle,overall,4995,0.003440699,1,weekly,1564.399289
+2,4,1,1,27.40232463,0.000354107,2_4,"Washington, DC",Online Display - Awareness - OLV,Bundle,overall,4995,0.019079421,1,weekly,16987.42218
+2,5,1,1,47.32198702,2.00E-05,2_5,"Washington, DC",DRTV,Bundle,overall,4995,708.410217,1,weekly,49977.30771
+2,6,1,1,134.4631617,0.000865994,2_6,"Washington, DC",Direct Mail,Bundle,overall,4995,0.390102624,1,weekly,7084.829686
+2,7,1,1,16.50570846,2.93E-05,2_7,"Washington, DC",Newspaper,Bundle,overall,4995,0.085719509,1,weekly,38251.00538
+2,8,1,1,71.30679039,0.000378019,2_8,"Washington, DC",Shared Mail,Bundle,overall,4995,0.022556592,1,weekly,19398.57463
+2,9,1,1,72.87258221,0.00021788,2_9,"Washington, DC",Online Display - Acquisition - Display,Bundle,overall,4995,0.002442422,1,weekly,40118.50783
+3,1,1,1,25.95529081,0.000103943,3_1,Philadelphia,TV Cable,Bundle,overall,4995,1,1,weekly,29721.39651
+3,10,1,1,32.29637976,9.51E-05,3_10,Philadelphia,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003315745,1,weekly,5841.340357
+3,11,1,1,15.72020779,8.48E-05,3_11,Philadelphia,Hispanic - DM,Bundle,overall,4995,1,1,weekly,11394.28314
+3,12,1,1,113.9157594,8.02E-06,3_12,Philadelphia,TV Spot,Bundle,overall,4995,1,1,weekly,157955.7784
+3,13,1,1,11.7546009,7.97E-05,3_13,Philadelphia,Radio,Bundle,overall,4995,247.1786098,1,weekly,33610.853
+3,14,1,1,4.342648781,0.000295851,3_14,Philadelphia,Hispanic - Display,Bundle,overall,4995,1,1,weekly,3952.121731
+3,15,1,1,3.524173829,0.01413841,3_15,Philadelphia,Asian,Bundle,overall,4995,1,1,weekly,536.3911445
+3,16,1,1,11.62812584,0.000552241,3_16,Philadelphia,OOH,Bundle,overall,4995,1,1,weekly,39563.207
+3,17,1,1,1.546674942,0.006051748,3_17,Philadelphia,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,942.7678049
+3,2,1,1,105.3767915,3.97E-05,3_2,Philadelphia,Online Display - Awareness - Display,Bundle,overall,4995,0.005620735,1,weekly,14680.94772
+3,3,1,1,1.614428801,0.004204952,3_3,Philadelphia,Online Display - Awareness - Mobile,Bundle,overall,4995,0.002853137,1,weekly,1310.712918
+3,4,1,1,28.7102929,0.000284829,3_4,Philadelphia,Online Display - Awareness - OLV,Bundle,overall,4995,0.016586588,1,weekly,14232.70507
+3,5,1,1,30.15254119,2.73E-05,3_5,Philadelphia,DRTV,Bundle,overall,4995,499.2601634,1,weekly,36664.19833
+3,6,1,1,128.8849084,4.41E-05,3_6,Philadelphia,Direct Mail,Bundle,overall,4995,0.395691282,1,weekly,150569.4332
+3,7,1,1,19.47462751,4.49E-05,3_7,Philadelphia,Newspaper,Bundle,overall,4995,0.065941264,1,weekly,33955.3
+3,8,1,1,69.4307083,0.000362989,3_8,Philadelphia,Shared Mail,Bundle,overall,4995,0.024331742,1,weekly,39388.3793
+3,9,1,1,74.03163624,0.000327732,3_9,Philadelphia,Online Display - Acquisition - Display,Bundle,overall,4995,0.002364755,1,weekly,33612.80385
+4,1,1,1,23.2774722,5.05E-05,4_1,Los Angeles,TV Cable,Bundle,overall,4995,1,1,weekly,79782.6407
+4,10,1,1,25.05610103,5.87E-05,4_10,Los Angeles,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.00312507,1,weekly,8617.54728
+4,11,1,1,9.716999484,3.29E-05,4_11,Los Angeles,Hispanic - DM,Bundle,overall,4995,1,1,weekly,26367.34943
+4,13,1,1,14.60568722,7.49E-05,4_13,Los Angeles,Radio,Bundle,overall,4995,629.1847826,1,weekly,49202.25
+4,14,1,1,5.09480171,5.92E-05,4_14,Los Angeles,Hispanic - Display,Bundle,overall,4995,1,1,weekly,19760.60327
+4,15,1,1,3.092753485,0.000789961,4_15,Los Angeles,Asian,Bundle,overall,4995,1,1,weekly,8988.643022
+4,16,1,1,4.707650061,0.000327038,4_16,Los Angeles,OOH,Bundle,overall,4995,1,1,weekly,75923.47179
+4,17,1,1,0.897528785,0.000905717,4_17,Los Angeles,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,12131.94951
+4,18,1,1,7.175022846,2.71E-05,4_18,Los Angeles,Hispanic - Radio,Bundle,overall,4995,1,1,weekly,42862.08882
+4,2,1,1,41.47148261,2.78E-05,4_2,Los Angeles,Online Display - Awareness - Display,Bundle,overall,4995,0.004210062,1,weekly,21658.34438
+4,3,1,1,1.111510059,0.00262404,4_3,Los Angeles,Online Display - Awareness - Mobile,Bundle,overall,4995,0.002575464,1,weekly,1933.653896
+4,4,1,1,20.85238614,0.000241135,4_4,Los Angeles,Online Display - Awareness - OLV,Bundle,overall,4995,0.015092601,1,weekly,20997.06598
+4,6,1,1,95.94461859,7.76E-05,4_6,Los Angeles,Direct Mail,Bundle,overall,4995,0.408902674,1,weekly,83032.24904
+4,8,1,1,46.09163786,0.000813201,4_8,Los Angeles,Shared Mail,Bundle,overall,4995,0.01875443,1,weekly,12728.01854
+4,9,1,1,54.48809155,0.000197482,4_9,Los Angeles,Online Display - Acquisition - Display,Bundle,overall,4995,0.001761033,1,weekly,49587.92138
+5,10,1,1,16.39333024,0.000154149,5_10,Tampa,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.006992943,1,weekly,4396.707796
+5,11,1,1,11.41868296,8.89E-05,5_11,Tampa,Hispanic - DM,Bundle,overall,4995,1,1,weekly,11796.74286
+5,12,1,1,69.50532861,2.06E-05,5_12,Tampa,TV Spot,Bundle,overall,4995,1,1,weekly,68202.29167
+5,13,1,1,7.923943971,0.000247815,5_13,Tampa,Radio,Bundle,overall,4995,96.27200422,1,weekly,10636.6525
+5,14,1,1,3.305778642,0.00034516,5_14,Tampa,Hispanic - Display,Bundle,overall,4995,1,1,weekly,3387.533462
+5,16,1,1,5.643998274,0.000894763,5_16,Tampa,OOH,Bundle,overall,4995,1,1,weekly,23918.98787
+5,17,1,1,0.759210481,0.021987026,5_17,Tampa,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,769.91
+5,2,1,1,24.58983278,6.53E-05,5_2,Tampa,Online Display - Awareness - Display,Bundle,overall,4995,0.00715628,1,weekly,11050.1757
+5,3,1,1,0.976642278,0.003799928,5_3,Tampa,Online Display - Awareness - Mobile,Bundle,overall,4995,0.004458419,1,weekly,986.5581104
+5,4,1,1,18.97971957,0.000386314,5_4,Tampa,Online Display - Awareness - OLV,Bundle,overall,4995,0.022932865,1,weekly,11141.30031
+5,5,1,1,31.59839081,4.10E-05,5_5,Tampa,DRTV,Bundle,overall,4995,378.566093,1,weekly,27337.59833
+5,6,1,1,82.71958569,0.000100786,5_6,Tampa,Direct Mail,Bundle,overall,4995,0.379162807,1,weekly,68533.74792
+5,8,1,1,35.23491745,0.00077722,5_8,Tampa,Shared Mail,Bundle,overall,4995,0.020843858,1,weekly,22335.74357
+5,9,1,1,48.2823516,0.000419075,5_9,Tampa,Online Display - Acquisition - Display,Bundle,overall,4995,0.002867156,1,weekly,25299.95988
+6,1,1,1,1.70555618,0.000197325,6_1,Boston,TV Cable,Bundle,overall,4995,1,1,weekly,23841.41279
+6,10,1,1,13.09938382,0.000128805,6_10,Boston,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.003874929,1,weekly,4974.560822
+6,11,1,1,6.981237328,0.000202991,6_11,Boston,Hispanic - DM,Bundle,overall,4995,1,1,weekly,4817.838571
+6,12,1,1,55.56118296,1.15E-05,6_12,Boston,TV Spot,Bundle,overall,4995,1,1,weekly,121023.9281
+6,13,1,1,5.818687327,7.29E-05,6_13,Boston,Radio,Bundle,overall,4995,263.2717021,1,weekly,34144.14583
+6,14,1,1,1.65565208,0.000517739,6_14,Boston,Hispanic - Display,Bundle,overall,4995,1,1,weekly,2258.354615
+6,15,1,1,1.649089619,0.018852574,6_15,Boston,Asian,Bundle,overall,4995,1,1,weekly,393.6211365
+6,2,1,1,18.78180122,4.56E-05,6_2,Boston,Online Display - Awareness - Display,Bundle,overall,4995,0.004526343,1,weekly,12502.48451
+6,3,1,1,0.668873435,0.003370634,6_3,Boston,Online Display - Awareness - Mobile,Bundle,overall,4995,0.003761231,1,weekly,1116.220034
+6,4,1,1,13.28654415,0.000286129,6_4,Boston,Online Display - Awareness - OLV,Bundle,overall,4995,0.017963177,1,weekly,12120.75528
+6,5,1,1,22.50748713,3.60E-05,6_5,Boston,DRTV,Bundle,overall,4995,296.7485426,1,weekly,23680.96646
+6,6,1,1,56.78625864,0.000101165,6_6,Boston,Direct Mail,Bundle,overall,4995,0.382503021,1,weekly,65872.74269
+6,7,1,1,4.302121677,4.90E-05,6_7,Boston,Newspaper,Bundle,overall,4995,0.083400359,1,weekly,25909.43688
+6,8,1,1,31.0259337,0.000950635,6_8,Boston,Shared Mail,Bundle,overall,4995,0.024523397,1,weekly,15599.61881
+6,9,1,1,34.04239567,0.000263713,6_9,Boston,Online Display - Acquisition - Display,Bundle,overall,4995,0.002059019,1,weekly,28625.09748
+7,1,1,1,4.192886403,0.000632429,7_1,Baltimore,TV Cable,Bundle,overall,4995,1,1,weekly,7851.62814
+7,10,1,1,11.92361755,0.000222893,7_10,Baltimore,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.006063577,1,weekly,2449.594343
+7,11,1,1,5.423925508,0.000184781,7_11,Baltimore,Hispanic - DM,Bundle,overall,4995,1,1,weekly,5635.144571
+7,12,1,1,56.36007349,4.60E-05,7_12,Baltimore,TV Spot,Bundle,overall,4995,1,1,weekly,32141.93783
+7,13,1,1,5.057720593,0.00034902,7_13,Baltimore,Radio,Bundle,overall,4995,127.7376449,1,weekly,9087.823778
+7,2,1,1,16.34058242,9.13E-05,7_2,Baltimore,Online Display - Awareness - Display,Bundle,overall,4995,0.006818807,1,weekly,6156.526463
+7,3,1,1,0.569925729,0.007228953,7_3,Baltimore,Online Display - Awareness - Mobile,Bundle,overall,4995,0.006205513,1,weekly,549.6538044
+7,4,1,1,10.19497981,0.000786897,7_4,Baltimore,Online Display - Awareness - OLV,Bundle,overall,4995,0.080940725,1,weekly,6207.295888
+7,5,1,1,10.035919,8.91E-05,7_5,Baltimore,DRTV,Bundle,overall,4995,199.7255488,1,weekly,14292.85958
+7,6,1,1,48.51335464,7.91E-05,7_6,Baltimore,Direct Mail,Bundle,overall,4995,0.404477515,1,weekly,78015.6342
+7,7,1,1,19.16951827,0.00017433,7_7,Baltimore,Newspaper,Bundle,overall,4995,0.118062082,1,weekly,12828.98
+7,8,1,1,35.44562525,0.000663895,7_8,Baltimore,Shared Mail,Bundle,overall,4995,0.022227041,1,weekly,12101.91368
+7,9,1,1,29.59079787,0.000707043,7_9,Baltimore,Online Display - Acquisition - Display,Bundle,overall,4995,0.003219078,1,weekly,14095.69194
+8,1,1,1,32.52266681,0.000192287,8_1,Dallas,TV Cable,Bundle,overall,4995,1,1,weekly,20768.85225
+8,10,1,1,12.28298489,0.000161757,8_10,Dallas,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.001961429,1,weekly,3140.505569
+8,11,1,1,5.5039818,0.000174126,8_11,Dallas,Hispanic - DM,Bundle,overall,4995,1,1,weekly,5782.911143
+8,14,1,1,0.951374661,0.001035479,8_14,Dallas,Hispanic - Display,Bundle,overall,4995,1,1,weekly,1129.178846
+8,15,1,1,2.858137831,0.018838174,8_15,Dallas,Asian,Bundle,overall,4995,1,1,weekly,472.4688974
+8,16,1,1,19.62367648,0.005289793,8_16,Dallas,OOH,Bundle,overall,4995,1,1,weekly,7022.206897
+8,17,1,1,0.518529729,0.010556237,8_17,Dallas,Hispanic - Shared Mail,Bundle,overall,4995,1,1,weekly,1735.688
+8,2,1,1,19.29403998,6.91E-05,8_2,Dallas,Online Display - Awareness - Display,Bundle,overall,4995,0.003508747,1,weekly,7892.982644
+8,3,1,1,0.53719554,0.007669373,8_3,Dallas,Online Display - Awareness - Mobile,Bundle,overall,4995,0.001938448,1,weekly,704.6843646
+8,4,1,1,8.888954198,0.000568893,8_4,Dallas,Online Display - Awareness - OLV,Bundle,overall,4995,0.061436665,1,weekly,7651.991973
+8,6,1,1,41.74313548,0.000219903,8_6,Dallas,Direct Mail,Bundle,overall,4995,0.40463926,1,weekly,28092.4648
+8,8,1,1,16.66978961,0.002627564,8_8,Dallas,Shared Mail,Bundle,overall,4995,0.01811257,1,weekly,3629.199762
+8,9,1,1,24.89488462,0.000546731,8_9,Dallas,Online Display - Acquisition - Display,Bundle,overall,4995,0.001585928,1,weekly,18071.39992
+9,1,1,1,7.553415735,0.000678471,9_1,Pittsburgh,TV Cable,Bundle,overall,4995,1,1,weekly,4806.927907
+9,10,1,1,7.743878066,0.000423782,9_10,Pittsburgh,Online Display - Acquisition - Mobile,Bundle,overall,4995,0.002825385,1,weekly,1319.012339
+9,11,1,1,4.089813979,0.000653474,9_11,Pittsburgh,Hispanic - DM,Bundle,overall,4995,1,1,weekly,1316.937429
+9,12,1,1,29.68721807,6.14E-05,9_12,Pittsburgh,TV Spot,Bundle,overall,4995,1,1,weekly,23094.08909
+9,13,1,1,2.725221129,0.000801153,9_13,Pittsburgh,Radio,Bundle,overall,4995,60.65802523,1,weekly,4349.45
+9,2,1,1,5.961615785,0.000172038,9_2,Pittsburgh,Online Display - Awareness - Display,Bundle,overall,4995,0.004260607,1,weekly,3315.052712
+9,3,1,1,0.3542943,0.015301849,9_3,Pittsburgh,Online Display - Awareness - Mobile,Bundle,overall,4995,0.003021412,1,weekly,295.9674331
+9,4,1,1,6.433404181,0.001360216,9_4,Pittsburgh,Online Display - Awareness - OLV,Bundle,overall,4995,0.057298638,1,weekly,3342.390094
+9,5,1,1,7.265657121,8.64E-05,9_5,Pittsburgh,DRTV,Bundle,overall,4995,206.1454349,1,weekly,14261.52771
+9,6,1,1,30.26107663,0.000250911,9_6,Pittsburgh,Direct Mail,Bundle,overall,4995,0.397636332,1,weekly,26131.81616
+9,8,1,1,21.24408482,0.001862274,9_8,Pittsburgh,Shared Mail,Bundle,overall,4995,0.024811479,1,weekly,9635.292308
+9,9,1,1,18.07025487,0.001313408,9_9,Pittsburgh,Online Display - Acquisition - Display,Bundle,overall,4995,0.002045456,1,weekly,7589.987967

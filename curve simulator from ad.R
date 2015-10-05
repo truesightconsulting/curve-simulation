@@ -100,7 +100,7 @@ match=match[!duplicated(match[,dim,with=F])]
 
 final=merge(final,match,by=c(dim),all.x=T)
 final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")], sep = "_"))
-#setnames(final,"sp_current","spend")
+setnames(final,"sp_current","sp")
 
 # export files
 write.csv(final,"sim_output_curve.csv",row.names=F)

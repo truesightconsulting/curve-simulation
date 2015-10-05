@@ -1,5 +1,5 @@
 dim,bdgt_dim,id_dim
-all_count,dma_count,dma_name
-0,channel_count,channel_name
-0,msg_count,msg_name
-0,0,all_name
+dma1_id,dma1_id,dma1_name
+chan1_id,chan1_id,chan1_name
+sales1_id,0,all_name
+0,0,sales1_name

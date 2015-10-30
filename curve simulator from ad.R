@@ -78,7 +78,13 @@ for (i in 1:nrow(curve_fit_final)){
    x=as.vector(as.matrix(curve_fit_final[i,]))
    dataset=data.frame(d=x[col_npv],id=x[col_sp])
    a.start <- max(dataset$d)
-   b.start <- learn.rate.start
+   #######################################################
+   index=median(dataset$id)
+   if (index<1e2) learn.rate.start=1e-1 else
+     if (index>=1e2 & index<1e3) learn.rate.start=1e-2 else
+       if (index>=1e3 & index<1e4) learn.rate.start=1e-4 else
+         learn.rate.start=1e-5
+   #########################################################
    control1 <- nls.control(maxiter= 10000, minFactor= 1e-30, warnOnly= FALSE,tol=1e-06)
    nl.reg <- nls(d ~ a * (1-exp(-b * id)),data=dataset,start= list(a=a.start,b=b.start),
                  control= control1)

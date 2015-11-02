@@ -10,7 +10,7 @@ ex.dim=fread("sim_input_setup.csv")
 # Code part
 ##########################################################################################
 # create id
-dim.id=ex.dim$id_dim[ex.dim$id_dim!=0]
+dim.id=names(ex.curve)[grepl("_name",names(ex.curve))]
 for (i in 1:length(dim.id)){
   tempid=dim.id[i]
   temp=data.table(a=unique(ex.curve[[tempid]]))
@@ -73,7 +73,6 @@ b=rep(0,nrow(curve_fit_final))
 
 if(round(nrow(curve_fit_final)/20)==0) int=5 else int=round(nrow(curve_fit_final)/20)
 for (i in 1:nrow(curve_fit_final)){
-  # print(i)
    if (i%%int==0) print(paste("Curves: ",(round(i/nrow(curve_fit_final),digit=2) * 100),  "% Complete ", sep="",Sys.time()))
    x=as.vector(as.matrix(curve_fit_final[i,]))
    dataset=data.frame(d=x[col_npv],id=x[col_sp])
@@ -85,6 +84,7 @@ for (i in 1:nrow(curve_fit_final)){
        if (index>=1e3 & index<1e4) learn.rate.start=1e-4 else
          learn.rate.start=1e-5
    #########################################################
+   b.start=learn.rate.start
    control1 <- nls.control(maxiter= 10000, minFactor= 1e-30, warnOnly= FALSE,tol=1e-06)
    nl.reg <- nls(d ~ a * (1-exp(-b * id)),data=dataset,start= list(a=a.start,b=b.start),
                  control= control1)

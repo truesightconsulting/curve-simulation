@@ -1,5 +1,5 @@
-dim,bdgt_dim,id_dim
-dma1_id,dma1_id,dma1_name
-chan1_id,chan1_id,chan1_name
-sales1_id,0,all_name
-0,0,sales1_name
+dim,bdgt_dim
+dma1_id,dma1_id
+chan1_id,chan1_id
+sales1_id,0
+0,0

@@ -2,7 +2,7 @@
 # set up
 #########################################################################################
 library(ggplot2);library(scales);library(reshape2);library(data.table);library(RColorBrewer)
-#setwd("d:\\Archives\\R Code\\Curve simulator\\")
+setwd("d:\\Archives\\R Code\\Curve simulator\\")
 data=fread("sim_output_curve.csv")
 x.factor=2
 y.factor=1.1
@@ -11,7 +11,7 @@ y.factor=1.1
 # code part
 #########################################################################################
 final=data
-x=seq(0,x.factor*max(final$spend),length.out=500)
+x=seq(0,x.factor*max(final$sp),length.out=500)
 for.graph=matrix(0,nc=length(final$dim),nr=length(x))
 colnames(for.graph)=final$dim
 for (i in 1:nrow(final)){

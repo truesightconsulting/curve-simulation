@@ -9,6 +9,14 @@ ex.dim=fread("sim_input_setup.csv")
 ##########################################################################################
 # Code part
 ##########################################################################################
+# generate npv points
+calc_ad=function(x){
+  ad=function(x1,x2){(1 - ((1 - x1 * exp(log(0.5) / ex.curve$hl)) / (exp(1) ^ ((x2/ex.curve$cps) / 
+                                                                                        (ex.curve$wks * ex.curve$max) * (-log(1 - ex.curve$hrf)) * 10))))}
+  ad(x1=ad(x1=rep(0,length(ex.curve$wks)),x2=x),x2=x)
+}
+ad=calc_ad(ex.curve$spend)
+ex.curve$beta=ex.curve$decomp/ad
 # create id
 dim.id=names(ex.curve)[grepl("_name",names(ex.curve))]
 for (i in 1:length(dim.id)){
@@ -72,24 +80,33 @@ a=rep(0,nrow(curve_fit_final))
 b=rep(0,nrow(curve_fit_final))
 
 if(round(nrow(curve_fit_final)/20)==0) int=5 else int=round(nrow(curve_fit_final)/20)
-for (i in 1:nrow(curve_fit_final)){
-   if (i%%int==0) print(paste("Curves: ",(round(i/nrow(curve_fit_final),digit=2) * 100),  "% Complete ", sep="",Sys.time()))
-   x=as.vector(as.matrix(curve_fit_final[i,]))
-   dataset=data.frame(d=x[col_npv],id=x[col_sp])
-   a.start <- max(dataset$d)
-   #######################################################
-   index=median(dataset$id)
-   if (index<1e2) learn.rate.start=1e-1 else
-     if (index>=1e2 & index<1e3) learn.rate.start=1e-2 else
-       if (index>=1e3 & index<1e4) learn.rate.start=1e-4 else
-         learn.rate.start=1e-5
-   #########################################################
-   b.start=learn.rate.start
-   control1 <- nls.control(maxiter= 10000, minFactor= 1e-30, warnOnly= FALSE,tol=1e-06)
-   nl.reg <- nls(d ~ a * (1-exp(-b * id)),data=dataset,start= list(a=a.start,b=b.start),
-                 control= control1)
-   a[i]=coef(nl.reg)[1]
-   b[i]=coef(nl.reg)[2]
+iter=0
+while(T & iter<3) {
+  iter=iter+1
+  learn.rate.start=learn.rate.start/10
+  col_zero=which(a %in% 0)
+  if (sum(col_zero)==0) {
+    break
+  } else {
+    for(i in col_zero) {
+      if (i%%int==0) print(paste("Curves: ",(round(i/nrow(curve_fit_final),digit=2) * 100),  "% Complete ", sep="",Sys.time()))
+      tryCatch({
+        x=as.vector(as.matrix(curve_fit_final[i,]))
+        dataset=data.frame(id=x[col_sp],d=x[col_npv])
+        dataset$d=dataset$d+rnorm(nrow(dataset),0,median(dataset$d)/100)
+        a.start <- max(dataset$d)
+        b.start <- learn.rate.start
+        control1 <- nls.control(maxiter= 10000, minFactor= 1e-5, warnOnly= FALSE,tol=1e-05)
+        nl.reg <- nls(d ~ a * (1-exp(-b * id)),data=dataset,start= list(a=a.start,b=b.start),
+                      control= control1)
+        a[i]=coef(nl.reg)[1]
+        b[i]=coef(nl.reg)[2]
+      },error=function(e){
+        print(i)
+      },finally=next
+      )
+    }
+  }
 }
 final=data.frame(curve_fit_final[,dim,with=F],a=a,b=b)
 

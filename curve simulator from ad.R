@@ -81,7 +81,7 @@ b=rep(0,nrow(curve_fit_final))
 
 if(round(nrow(curve_fit_final)/20)==0) int=5 else int=round(nrow(curve_fit_final)/20)
 iter=0
-while(T & iter<3) {
+while(T & iter<10) {
   iter=iter+1
   learn.rate.start=learn.rate.start/10
   col_zero=which(a %in% 0)
@@ -96,7 +96,7 @@ while(T & iter<3) {
         dataset$d=dataset$d+rnorm(nrow(dataset),0,median(dataset$d)/100)
         a.start <- max(dataset$d)
         b.start <- learn.rate.start
-        control1 <- nls.control(maxiter= 10000, minFactor= 1e-5, warnOnly= FALSE,tol=1e-05)
+        control1 <- nls.control(maxiter= 10000, minFactor= 1e-30, warnOnly= FALSE,tol=1e-05)
         nl.reg <- nls(d ~ a * (1-exp(-b * id)),data=dataset,start= list(a=a.start,b=b.start),
                       control= control1)
         a[i]=coef(nl.reg)[1]

@@ -34,7 +34,7 @@ if(sum(dim %in% bdgt_dim)==0) bdgt_dim1="all_id" else bdgt_dim1=dim[dim %in% bdg
 
 
 # compute current spend and npv
-ex.curve$npv=ex.curve$decomp*ex.curve$clv
+ex.curve$npv=ex.curve$decomp
 npv_current=ex.curve[,list(npv=sum(decomp)),by=c(dim)]
 
 for.sp=ex.curve[!duplicated(ex.curve[,c(bdgt_dim),with=F]),]

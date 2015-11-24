@@ -1,244 +1,42 @@
-dma1_name,chan1_name,sales1_name,all_name,beta,hl,hrf,max,clv,cps,wks,spend,decomp
-New York,TV Cable,Bundle,overall,27.82105384,0.3,0.45,115687.55,4955,1,1,86991.37209,27.54103714
-New York,TV Spot,Bundle,overall,273.0206544,2,0.15,1119152.5,4955,1,1,642325.14,211.6688077
-New York,Online Display - Awareness - Display,Bundle,overall,124.1807417,0.3,0.15,25549871,4955,0.005822839,1,50282.32331,55.48959708
-New York,Online Display - Awareness - Mobile,Bundle,overall,4.011006405,0.3,0.75,4339939,4955,0.003883074,1,4402.86791,3.914134423
-New York,Online Display - Awareness - OLV,Bundle,overall,81.20064225,3,0.6,17672370,4955,0.019392811,1,47809.64585,71.53511015
-New York,Radio,Bundle,overall,29.94933983,0.3,0.3,366.9,4955,474.2321311,1,89206.78333,25.5392138
-New York,OOH,Bundle,overall,13.88959176,4,0.9,83680.50073,4955,1,1,34848.91221,13.8894404
-New York,DRTV,Bundle,overall,96.39843206,0.3,0.15,137.74,4955,1499.716012,1,118846.87,60.83528321
-New York,Direct Mail,Bundle,overall,329.9871791,2,0.6,1931029.104,4955,0.379648343,1,315331.5541,328.0217357
-New York,Newspaper,Bundle,overall,16.15523412,1,0.15,2350188,4955,0.051804927,1,41127.32533,8.79585629
-New York,Shared Mail,Bundle,overall,286.9938516,1,0.9,5205300,4955,0.034442709,1,123844.3816,286.9938339
-New York,Online Display - Acquisition - Display,Bundle,overall,188.2868253,0.6,0.75,87677403,4955,0.00246373,1,112910.1067,188.1948436
-New York,Online Display - Acquisition - Mobile,Bundle,overall,70.88968851,0.3,0.15,16672445,4955,0.003069785,1,19244.53496,34.1590479
-New York,Hispanic - DM,Bundle,overall,39.41769899,0.3,0.15,78698.35,4955,1,1,42954.348,24.12999338
-New York,Hispanic - DRTV,Bundle,overall,24.93988397,0.3,0.9,176778.98,4955,1,1,130830.5105,24.93988308
-New York,Hispanic - Display,Bundle,overall,15.40654689,0.3,0.15,33268.8,4955,1,1,22583.54615,10.63348743
-New York,Hispanic - Shared Mail,Bundle,overall,3.687307177,0.3,0.9,18921.18,4955,1,1,16491.03467,3.68730717
-New York,Hispanic - Radio,Bundle,overall,70.39161422,0.3,0.15,58072,4955,1,1,43834.38727,51.19686172
-New York,Hispanic - TV,Bundle,overall,7.683404546,0.3,0.15,92743.16,4955,1,1,92318.184,6.28063972
-New York,Asian,Bundle,overall,10.53785512,0.3,0.75,63792.55156,4955,1,1,34164.4451,10.53219223
-"Washington, DC",TV Cable,Bundle,overall,30.79215119,0.3,0.45,52241,4955,1,1,43096.58163,30.5919296
-"Washington, DC",TV Spot,Bundle,overall,139.3697351,2,0.15,323756.5,4955,1,1,148512.6327,97.81257137
-"Washington, DC",Online Display - Awareness - Display,Bundle,overall,51.70914534,0.3,0.15,10331480,4955,0.005277048,1,17865.99836,22.59467859
-"Washington, DC",Online Display - Awareness - Mobile,Bundle,overall,1.585056649,0.3,0.75,1413163,4955,0.003440699,1,1564.399289,1.568531872
-"Washington, DC",Online Display - Awareness - OLV,Bundle,overall,27.52119142,3,0.6,2313082,4955,0.019079421,1,16987.42218,27.33543652
-"Washington, DC",Radio,Bundle,overall,13.88858149,0.3,0.3,200.3,4955,254.375024,1,32414.64592,12.58021397
-"Washington, DC",OOH,Bundle,overall,24.17703515,4,0.9,9643.103448,4955,1,1,5707.142857,24.17703051
-"Washington, DC",DRTV,Bundle,overall,47.16290582,0.3,0.15,121.91,4955,708.410217,1,49977.30771,29.86234675
-"Washington, DC",Direct Mail,Bundle,overall,135.0640261,2,0.6,43307,4955,0.390102624,1,7084.829686,134.172074
-"Washington, DC",Newspaper,Bundle,overall,16.37972499,1,0.15,894541,4955,0.085719509,1,38251.00538,11.12053854
-"Washington, DC",Shared Mail,Bundle,overall,71.43022699,1,0.9,3699943,4955,0.022556592,1,19398.57463,71.26018498
-"Washington, DC",Online Display - Acquisition - Display,Bundle,overall,72.89645926,0.6,0.75,31414718,4955,0.002442422,1,40118.50783,72.86093046
-"Washington, DC",Online Display - Acquisition - Mobile,Bundle,overall,30.64602606,0.3,0.15,6583341,4955,0.003126839,1,6971.922363,13.71469516
-"Washington, DC",Hispanic - DM,Bundle,overall,17.10306973,0.3,0.15,893.15,4955,1,1,344.684,8.390741291
-"Washington, DC",Hispanic - DRTV,Bundle,overall,14.41244752,0.3,0.9,15156.56,4955,1,1,11844.57333,14.41244732
-"Washington, DC",Hispanic - Display,Bundle,overall,3.851478103,0.3,0.15,4990.32,4955,1,1,3387.533462,2.658262998
-"Washington, DC",Hispanic - Shared Mail,Bundle,overall,1.389672067,0.3,0.9,846.16,4955,1,1,586.97075,1.389671922
-"Washington, DC",Asian,Bundle,overall,4.473777732,0.3,0.75,15430.68543,4955,1,1,5976.682178,4.455002137
-Philadelphia,TV Cable,Bundle,overall,26.04918304,0.3,0.45,60894,4955,1,1,29721.39651,24.77349258
-Philadelphia,TV Spot,Bundle,overall,113.5125896,2,0.15,325387.75,4955,1,1,157955.7784,81.83929306
-Philadelphia,Online Display - Awareness - Display,Bundle,overall,104.181429,0.3,0.15,7727929,4955,0.005620735,1,14680.94772,46.55346287
-Philadelphia,Online Display - Awareness - Mobile,Bundle,overall,1.615873976,0.3,0.75,1222755,4955,0.002853137,1,1310.712918,1.607906337
-Philadelphia,Online Display - Awareness - OLV,Bundle,overall,28.9670628,3,0.6,3310947,4955,0.016586588,1,14232.70507,28.21203373
-Philadelphia,Radio,Bundle,overall,11.80204284,0.3,0.3,191.6,4955,247.1786098,1,33610.853,10.94887738
-Philadelphia,OOH,Bundle,overall,11.62813158,4,0.9,71819,4955,1,1,39563.207,11.62812584
-Philadelphia,DRTV,Bundle,overall,30.05289353,0.3,0.15,126.4,4955,499.2601634,1,36664.19833,19.07146553
-Philadelphia,Direct Mail,Bundle,overall,129.3306078,2,0.6,838520.9921,4955,0.395691282,1,150569.4332,128.7159355
-Philadelphia,Newspaper,Bundle,overall,19.53692876,1,0.15,756995,4955,0.065941264,1,33955.3,15.23262273
-Philadelphia,Shared Mail,Bundle,overall,69.43152857,1,0.9,3515746,4955,0.024331742,1,39388.3793,69.43066542
-Philadelphia,Online Display - Acquisition - Display,Bundle,overall,74.035695,0.6,0.75,21486197,4955,0.002364755,1,33612.80385,74.0304194
-Philadelphia,Online Display - Acquisition - Mobile,Bundle,overall,31.90767777,0.3,0.15,5469064,4955,0.003315745,1,5841.340357,13.76867513
-Philadelphia,Hispanic - DM,Bundle,overall,15.66030632,0.3,0.15,20310.45,4955,1,1,11394.28314,9.741067303
-Philadelphia,Hispanic - Display,Bundle,overall,4.337640623,0.3,0.15,5822.04,4955,1,1,3952.121731,2.993808688
-Philadelphia,Hispanic - Shared Mail,Bundle,overall,1.547879705,0.3,0.9,4026.06,4955,1,1,942.7678049,1.541527658
-Philadelphia,Asian,Bundle,overall,3.524819729,0.3,0.75,1036.834894,4955,1,1,536.3911445,3.5223812
-Los Angeles,TV Cable,Bundle,overall,23.33162589,0.3,0.45,125213.5,4955,1,1,79782.6407,22.86465713
-Los Angeles,Online Display - Awareness - Display,Bundle,overall,41.01971643,0.3,0.15,14757641,4955,0.004210062,1,21658.34438,18.74029426
-Los Angeles,Online Display - Awareness - Mobile,Bundle,overall,1.112858527,0.3,0.75,2170916,4955,0.002575464,1,1933.653896,1.104554863
-Los Angeles,Online Display - Awareness - OLV,Bundle,overall,20.98727642,3,0.6,4295974,4955,0.015092601,1,20997.06598,20.72047904
-Los Angeles,Radio,Bundle,overall,14.6465325,0.3,0.3,80.1,4955,629.1847826,1,49202.25,14.23957525
-Los Angeles,OOH,Bundle,overall,4.707650417,4,0.9,120060.3297,4955,1,1,75923.47179,4.707650061
-Los Angeles,Direct Mail,Bundle,overall,96.31102581,2,0.6,460810.25,4955,0.408902674,1,83032.24904,95.79231176
-Los Angeles,Shared Mail,Bundle,overall,46.10181474,1,0.9,2058720,4955,0.01875443,1,12728.01854,46.0901639
-Los Angeles,Online Display - Acquisition - Display,Bundle,overall,54.49600403,0.6,0.75,47992017,4955,0.001761033,1,49587.92138,54.48504808
-Los Angeles,Online Display - Acquisition - Mobile,Bundle,overall,24.72176877,0.3,0.15,9401810,4955,0.00312507,1,8617.54728,9.950656739
-Los Angeles,Hispanic - DM,Bundle,overall,9.664538068,0.3,0.15,52351.14,4955,1,1,26367.34943,5.638166871
-Los Angeles,Hispanic - Display,Bundle,overall,5.088926074,0.3,0.15,29110.2,4955,1,1,19760.60327,3.512340069
-Los Angeles,Hispanic - Shared Mail,Bundle,overall,0.897537877,0.3,0.9,26824.24,4955,1,1,12131.94951,0.897513615
-Los Angeles,Hispanic - Radio,Bundle,overall,7.166201039,0.3,0.15,63507.75,4955,1,1,42862.08882,4.931407431
-Los Angeles,Asian,Bundle,overall,3.093587609,0.3,0.75,18560.68543,4955,1,1,8988.643022,3.090203359
-Tampa,TV Spot,Bundle,overall,69.46049619,2,0.15,126671.25,4955,1,1,68202.29167,52.4454299
-Tampa,Online Display - Awareness - Display,Bundle,overall,24.38850577,0.3,0.15,3692369,4955,0.00715628,1,11050.1757,12.63325958
-Tampa,Online Display - Awareness - Mobile,Bundle,overall,0.979288159,0.3,0.75,866222,4955,0.004458419,1,986.5581104,0.953647422
-Tampa,Online Display - Awareness - OLV,Bundle,overall,19.13843856,3,0.6,1765389,4955,0.022932865,1,11141.30031,18.72323141
-Tampa,Radio,Bundle,overall,7.956153927,0.3,0.3,158.3,4955,96.27200422,1,10636.6525,7.356172104
-Tampa,OOH,Bundle,overall,5.64400194,4,0.9,44387.23655,4955,1,1,23918.98787,5.643998271
-Tampa,DRTV,Bundle,overall,31.54394545,0.3,0.15,111.01,4955,378.566093,1,27337.59833,21.29434354
-Tampa,Direct Mail,Bundle,overall,82.96752816,2,0.6,382636.9345,4955,0.379162807,1,68533.74792,82.63682402
-Tampa,Shared Mail,Bundle,overall,35.23495514,1,0.9,1893869,4955,0.020843858,1,22335.74357,35.23491643
-Tampa,Online Display - Acquisition - Display,Bundle,overall,48.28604163,0.6,0.75,13870146,4955,0.002867156,1,25299.95988,48.28115169
-Tampa,Online Display - Acquisition - Mobile,Bundle,overall,16.24386999,0.3,0.15,1599722,4955,0.006992943,1,4396.707796,8.069478151
-Tampa,Hispanic - DM,Bundle,overall,11.38858913,0.3,0.15,19371.1,4955,1,1,11796.74286,7.419532703
-Tampa,Hispanic - Display,Bundle,overall,3.301966263,0.3,0.15,4990.32,4955,1,1,3387.533462,2.278993804
-Tampa,Hispanic - Shared Mail,Bundle,overall,0.759210514,0.3,0.9,1098.12,4955,1,1,769.91,0.759210447
-Boston,TV Cable,Bundle,overall,1.708198072,0.3,0.45,32066.25,4955,1,1,23841.41279,1.690113609
-Boston,TV Spot,Bundle,overall,55.51090241,2,0.15,226894.75,4955,1,1,121023.9281,41.74496545
-Boston,Online Display - Awareness - Display,Bundle,overall,18.56285697,0.3,0.15,8351652,4955,0.004526343,1,12502.48451,8.165692112
-Boston,Online Display - Awareness - Mobile,Bundle,overall,0.670672978,0.3,0.75,1157558,4955,0.003761231,1,1116.220034,0.653336411
-Boston,Online Display - Awareness - OLV,Bundle,overall,13.41896109,3,0.6,3044338,4955,0.017963177,1,12120.75528,12.87232078
-Boston,Radio,Bundle,overall,5.842695768,0.3,0.3,196.7,4955,263.2717021,1,34144.14583,5.336359054
-Boston,DRTV,Bundle,overall,22.38026394,0.3,0.15,161.16,4955,296.7485426,1,23680.96646,12.92066344
-Boston,Direct Mail,Bundle,overall,56.97986483,2,0.6,377943,4955,0.382503021,1,65872.74269,56.71380006
-Boston,Newspaper,Bundle,overall,4.288872801,1,0.15,549076,4955,0.083400359,1,25909.43688,3.092963978
-Boston,Shared Mail,Bundle,overall,31.02617707,1,0.9,1329434,4955,0.024523397,1,15599.61881,31.02592245
-Boston,Online Display - Acquisition - Display,Bundle,overall,34.0695251,0.6,0.75,30832710,4955,0.002059019,1,28625.09748,34.02446431
-Boston,Online Display - Acquisition - Mobile,Bundle,overall,12.96898517,0.3,0.15,3455397,4955,0.003874929,1,4974.560822,6.19735112
-Boston,Hispanic - DM,Bundle,overall,6.955815576,0.3,0.15,8488.36,4955,1,1,4817.838571,4.35579564
-Boston,Hispanic - Display,Bundle,overall,1.653742687,0.3,0.15,3326.88,4955,1,1,2258.354615,1.141401263
-Boston,Asian,Bundle,overall,1.64943424,0.3,0.75,777.6261705,4955,1,1,393.6211365,1.64810233
-Baltimore,TV Cable,Bundle,overall,4.198358194,0.3,0.45,10004.5,4955,1,1,7851.62814,4.163646044
-Baltimore,TV Spot,Bundle,overall,56.40330979,2,0.15,56703.5,4955,1,1,32141.93783,43.50915246
-Baltimore,Online Display - Awareness - Display,Bundle,overall,16.14656151,0.3,0.15,2771355,4955,0.006818807,1,6156.526463,7.025370463
-Baltimore,Online Display - Awareness - Mobile,Bundle,overall,0.571295701,0.3,0.75,327125,4955,0.006205513,1,549.6538044,0.559206016
-Baltimore,Online Display - Awareness - OLV,Bundle,overall,10.26545897,3,0.6,245491.5441,4955,0.080940725,1,6207.295888,10.11787619
-Baltimore,Radio,Bundle,overall,5.075479187,0.3,0.3,84.7,4955,127.7376449,1,9087.823778,4.845667251
-Baltimore,DRTV,Bundle,overall,10.03528398,0.3,0.15,96.76,4955,199.7255488,1,14292.85958,7.227983567
-Baltimore,Direct Mail,Bundle,overall,48.72623384,2,0.6,457206.5577,4955,0.404477515,1,78015.6342,48.41209063
-Baltimore,Newspaper,Bundle,overall,19.40817925,1,0.15,108663,4955,0.118062082,1,12828.98,17.12156643
-Baltimore,Shared Mail,Bundle,overall,3.55E+01,1,0.9,2136148,4955,0.022227041,1,12101.91368,35.43413663
-Baltimore,Online Display - Acquisition - Display,Bundle,overall,29.59454663,0.6,0.75,7330899,4955,0.003219078,1,14095.69194,29.58940835
-Baltimore,Online Display - Acquisition - Mobile,Bundle,overall,11.7771249,0.3,0.15,1276442,4955,0.006063577,1,2449.594343,5.016703643
-Baltimore,Hispanic - DM,Bundle,overall,5.409051477,0.3,0.15,9323.68,4955,1,1,5635.144571,3.509240054
-Dallas,TV Cable,Bundle,overall,32.59997767,0.3,0.45,32911.15,4955,1,1,20768.85225,31.9231544
-Dallas,Online Display - Awareness - Display,Bundle,overall,19.05671808,0.3,0.15,7114822,4955,0.003508747,1,7892.982644,8.111553773
-Dallas,Online Display - Awareness - Mobile,Bundle,overall,0.537714211,0.3,0.75,986781,4955,0.001938448,1,704.6843646,0.534780116
-Dallas,Online Display - Awareness - OLV,Bundle,overall,8.962228534,3,0.6,447477,4955,0.061436665,1,7651.991973,8.774588935
-Dallas,OOH,Bundle,overall,19.62367648,4,0.9,7022.206897,4955,1,1,7022.206897,19.62367648
-Dallas,Direct Mail,Bundle,overall,41.92578008,2,0.6,164414.7505,4955,0.40463926,1,28092.4648,41.656503
-Dallas,Shared Mail,Bundle,overall,16.67633374,1,0.9,660784,4955,0.01811257,1,3629.199762,16.66858591
-Dallas,Online Display - Acquisition - Display,Bundle,overall,24.89825966,0.6,0.75,19246092,4955,0.001585928,1,18071.39992,24.89361054
-Dallas,Online Display - Acquisition - Mobile,Bundle,overall,12.11972903,0.3,0.15,5438180,4955,0.001961429,1,3140.505569,4.892320257
-Dallas,Hispanic - DM,Bundle,overall,5.486259291,0.3,0.15,9894.85,4955,1,1,5782.911143,3.493218477
-Dallas,Hispanic - Display,Bundle,overall,0.950277502,0.3,0.15,1663.44,4955,1,1,1129.178846,0.655875129
-Dallas,Hispanic - Shared Mail,Bundle,overall,0.518529734,0.3,0.9,2283.42,4955,1,1,1735.688,0.518529723
-Dallas,Asian,Bundle,overall,2.85831411,0.3,0.75,777.6261705,4955,1,1,472.4688974,2.857748189
-Pittsburgh,TV Cable,Bundle,overall,7.579031915,0.3,0.45,9328.75,4955,1,1,4806.927907,7.263846658
-Pittsburgh,TV Spot,Bundle,overall,29.67585522,2,0.15,42487.25,4955,1,1,23094.08909,22.49688957
-Pittsburgh,Online Display - Awareness - Display,Bundle,overall,5.892089148,0.3,0.15,2353399,4955,0.004260607,1,3315.052712,2.591232665
-Pittsburgh,Online Display - Awareness - Mobile,Bundle,overall,0.354907827,0.3,0.75,317370,4955,0.003021412,1,295.9674331,0.350470369
-Pittsburgh,Online Display - Awareness - OLV,Bundle,overall,6.483356031,3,0.6,200649,4955,0.057298638,1,3342.390094,6.365174102
-Pittsburgh,Radio,Bundle,overall,2.733616727,0.3,0.3,77.7,4955,60.65802523,1,4349.45,2.641647453
-Pittsburgh,DRTV,Bundle,overall,7.262220318,0.3,0.15,96.68,4955,206.1454349,1,14261.52771,5.147125113
-Pittsburgh,Direct Mail,Bundle,overall,30.3701902,2,0.6,146595.5482,4955,0.397636332,1,26131.81616,30.21809129
-Pittsburgh,Shared Mail,Bundle,overall,21.24409903,1,0.9,662317,4955,0.024811479,1,9635.292308,21.24408448
-Pittsburgh,Online Display - Acquisition - Display,Bundle,overall,18.07253964,0.6,0.75,6210733,4955,0.002045456,1,7589.987967,18.06940844
-Pittsburgh,Online Display - Acquisition - Mobile,Bundle,overall,7.651330914,0.3,0.15,1440747,4955,0.002825385,1,1319.012339,3.315962378
-Pittsburgh,Hispanic - DM,Bundle,overall,4.067204703,0.3,0.15,2637.5,4955,1,1,1316.937429,2.360170773
-Providence,TV Cable,Bundle,overall,2.174432731,0.3,0.45,3137.35,4955,1,1,2653.838372,2.161957785
-Providence,TV Spot,Bundle,overall,29.1726354,2,0.15,22542,4955,1,1,13741.42799,23.15582585
-Providence,Online Display - Awareness - Display,Bundle,overall,22.91099236,0.3,0.15,1597949,4955,0.005339787,1,2778.32989,9.964588577
-Providence,Online Display - Awareness - Mobile,Bundle,overall,0.316804847,0.3,0.75,211781,4955,0.004633941,1,248.0488963,0.308192654
-Providence,Online Display - Awareness - OLV,Bundle,overall,6.447577179,3,0.6,276843,4955,0.057825889,1,2746.314924,5.950725088
-Providence,Radio,Bundle,overall,2.749856494,0.3,0.3,110.6,4955,55.81467796,1,4011.338889,2.503223351
-Providence,DRTV,Bundle,overall,11.04848276,0.3,0.15,131,4955,84.95579234,1,5823.684167,6.596449065
-Providence,Direct Mail,Bundle,overall,29.41294206,2,0.6,157207,4955,0.378806433,1,24320.2569,29.19704078
-Providence,Newspaper,Bundle,overall,3.061933228,1,0.15,115693,4955,0.084288147,1,5394.778571,2.185395806
-Providence,Shared Mail,Bundle,overall,2.11E+01,1,0.9,623342,4955,0.025255622,1,9737.493659,21.06405793
-Providence,Online Display - Acquisition - Display,Bundle,overall,17.81385553,0.6,0.75,4924242,4955,0.002399238,1,6361.132773,17.80685777
-Providence,Online Display - Acquisition - Mobile,Bundle,overall,6.693000819,0.3,0.15,659217,4955,0.004736479,1,1105.45796,3.091699241
-Providence,Hispanic - DM,Bundle,overall,4.488205287,0.3,0.15,8645,4955,1,1,4685.022727,2.736027032
-Providence,Hispanic - Shared Mail,Bundle,overall,0.32627229,0.3,0.9,1192.43,4955,1,1,839.157,0.326272263
-Norfolk,TV Spot,Bundle,overall,25.18996744,2,0.15,22163.75,4955,1,1,10252.85397,17.75107919
-Norfolk,Online Display - Awareness - Display,Bundle,overall,10.27348649,0.3,0.15,1468246,4955,0.004241662,1,2367.894794,4.988667483
-Norfolk,Online Display - Awareness - Mobile,Bundle,overall,0.310480342,0.3,0.75,275002,4955,0.003438484,1,211.4053094,0.297810144
-Norfolk,Online Display - Awareness - OLV,Bundle,overall,5.555195403,3,0.6,137116,4955,0.059573908,1,2387.421496,5.455657902
-Norfolk,Radio,Bundle,overall,2.197644231,0.3,0.3,84.1,4955,49.2139055,1,3566.695778,2.105617095
-Norfolk,DRTV,Bundle,overall,6.348257345,0.3,0.15,96.5,4955,109.6511422,1,8155.943333,4.662849194
-Norfolk,Direct Mail,Bundle,overall,24.81408943,2,0.6,226963.437,4955,0.402485441,1,39824.92369,24.67431471
-Norfolk,Shared Mail,Bundle,overall,15.07809443,1,0.9,612625,4955,0.024905048,1,8550.973171,15.07807569
-Norfolk,Online Display - Acquisition - Display,Bundle,overall,15.55563745,0.6,0.75,3719242,4955,0.00231297,1,5421.419977,15.55392605
-Norfolk,Online Display - Acquisition - Mobile,Bundle,overall,7.149006418,0.3,0.15,1019763,4955,0.00320554,1,942.1516706,2.839800357
-Norfolk,Hispanic - DM,Bundle,overall,3.026599187,0.3,0.15,5722.12,4955,1,1,3048.196,1.826376351
-Richmond,TV Cable,Bundle,overall,1.804163392,0.3,0.45,2840.7,4955,1,1,2004.418605,1.780198136
-Richmond,TV Spot,Bundle,overall,32.01975426,2,0.15,26180,4955,1,1,12014.2975,22.47674922
-Richmond,Online Display - Awareness - Display,Bundle,overall,11.13017815,0.3,0.15,1664145,4955,0.005057273,1,2367.894794,4.341091996
-Richmond,Online Display - Awareness - Mobile,Bundle,overall,0.290623304,0.3,0.75,159312,4955,0.004918223,1,211.4053094,0.284390768
-Richmond,Online Display - Awareness - OLV,Bundle,overall,5.196433535,3,0.6,146597,4955,0.060176669,1,2387.421496,5.07769895
-Richmond,Radio,Bundle,overall,2.1909488,0.3,0.3,81.3,4955,41.04171039,1,2955.185556,2.106737346
-Richmond,DRTV,Bundle,overall,6.901101993,0.3,0.15,97.55,4955,78.44887229,1,5088.357292,4.712446888
-Richmond,Direct Mail,Bundle,overall,23.22521838,2,0.6,239123.563,4955,0.402485441,1,41958.64224,23.09439357
-Richmond,Shared Mail,Bundle,overall,17.38702211,1,0.9,680993,4955,0.024143336,1,5195.496579,17.38100352
-Richmond,Online Display - Acquisition - Display,Bundle,overall,14.55619123,0.6,0.75,4234182,4955,0.002593983,1,5421.419977,14.5455452
-Richmond,Online Display - Acquisition - Mobile,Bundle,overall,5.899058391,0.3,0.15,680757,4955,0.004194503,1,942.1516706,2.590504057
-Richmond,Hispanic - DM,Bundle,overall,2.839751789,0.3,0.15,6028.69,4955,1,1,3211.510571,1.713625943
-Harrisburg,TV Cable,Bundle,overall,2.247426156,0.3,0.45,2762.5,4955,1,1,2068.264651,2.224360536
-Harrisburg,Online Display - Awareness - Display,Bundle,overall,8.09050955,0.3,0.15,1769052,4955,0.000898149,1,473.5789587,3.296089567
-Harrisburg,Online Display - Awareness - Mobile,Bundle,overall,0.250968779,0.3,0.75,278699,4955,0.000708757,1,42.28106188,0.239274
-Harrisburg,Online Display - Awareness - OLV,Bundle,overall,3.627925859,3,0.6,157397,4955,0.011737387,1,477.4842992,3.532585648
-Harrisburg,DRTV,Bundle,overall,5.132389303,0.3,0.15,82.09,4955,162.078265,1,8497.121875,3.431005596
-Harrisburg,Direct Mail,Bundle,overall,9.183145567,2,0.6,47350.50376,4955,0.397636332,1,8440.60188,9.137154863
-Harrisburg,Newspaper,Bundle,overall,7.142097853,1,0.15,48423,4955,0.137810545,1,6673.2,6.30063754
-Harrisburg,Shared Mail,Bundle,overall,15.81891854,1,0.9,160178,4955,0.017581884,1,1795.142,15.8189152
-Harrisburg,Online Display - Acquisition - Display,Bundle,overall,11.07722739,0.6,0.75,5165622,4955,0.000481414,1,1084.283995,11.05921662
-Harrisburg,Online Display - Acquisition - Mobile,Bundle,overall,2.302342373,0.3,0.15,720345,4955,0.000704053,1,188.4303341,1.100216587
-Harrisburg,Hispanic - DM,Bundle,overall,1.229810698,0.3,0.15,851.91,4955,1,1,425.3722857,0.713653475
-Buffalo,TV Cable,Bundle,overall,0.624959491,0.3,0.45,1650.7,4955,1,1,1159.518605,0.616499039
-Buffalo,Online Display - Awareness - Display,Bundle,overall,2.325758238,0.3,0.15,1362354,4955,0.003168668,1,1389.164945,1.002872571
-Buffalo,Online Display - Awareness - Mobile,Bundle,overall,0.116777605,0.3,0.75,239267,4955,0.001876466,1,124.0244482,0.114487265
-Buffalo,Online Display - Awareness - OLV,Bundle,overall,2.072692196,3,0.6,167156,4955,0.041360261,1,1346.750587,1.954608313
-Buffalo,DRTV,Bundle,overall,2.726982316,0.3,0.15,77.8,4955,125.8336605,1,6315.879792,1.832847843
-Buffalo,Direct Mail,Bundle,overall,9.751981006,2,0.6,48122.44054,4955,0.375476123,1,7521.941333,9.685648459
-Buffalo,Newspaper,Bundle,overall,2.319447531,1,0.15,268178,4955,0.168725248,1,15128.665,1.254713117
-Buffalo,Shared Mail,Bundle,overall,17.05479809,1,0.9,152891,4955,0.019184204,1,2122.032,17.0547976
-Buffalo,Online Display - Acquisition - Display,Bundle,overall,2.893190194,0.6,0.75,4509537,4955,0.001446197,1,3180.566387,2.890893427
-Buffalo,Online Display - Acquisition - Mobile,Bundle,overall,2.102414384,0.3,0.15,555631,4955,0.002507332,1,552.72898,1.051142498
-Buffalo,Hispanic - DM,Bundle,overall,1.239047207,0.3,0.15,1877.58,4955,1,1,932.5108571,0.71665463
-Syracuse,TV Cable,Bundle,overall,2.117556245,0.3,0.45,3070.2,4955,1,1,1977.467568,2.076894101
-Syracuse,TV Spot,Bundle,overall,8.879634416,2,0.15,20795.25,4955,1,1,10804.21163,6.601713715
-Syracuse,Online Display - Awareness - Display,Bundle,overall,2.869090097,0.3,0.15,1073946,4955,0.004124858,1,1389.164945,1.213874974
-Syracuse,Online Display - Awareness - Mobile,Bundle,overall,0.093764871,0.3,0.75,203220,4955,0.002166382,1,124.0244482,0.092060565
-Syracuse,Online Display - Awareness - OLV,Bundle,overall,1.762664037,3,0.6,148771,4955,0.046893289,1,1400.620611,1.669573999
-Syracuse,Radio,Bundle,overall,0.800985893,0.3,0.3,86.9,4955,26.87793271,1,1970.451111,0.765192118
-Syracuse,DRTV,Bundle,overall,2.152766319,0.3,0.15,87.81,4955,76.86409212,1,4463.802083,1.465929905
-Syracuse,Direct Mail,Bundle,overall,8.109685563,2,0.6,36675.12461,4955,0.375476123,1,5732.62978,8.054523837
-Syracuse,Newspaper,Bundle,overall,1.562325851,1,0.15,198504,4955,0.085546896,1,11202.52,1.203432093
-Syracuse,Shared Mail,Bundle,overall,26.70933103,1,0.9,145666,4955,0.022988444,1,2499.288333,26.70933057
-Syracuse,Online Display - Acquisition - Display,Bundle,overall,4.799860335,0.6,0.75,3964007,4955,0.001818448,1,3180.566387,4.792601323
-Syracuse,Online Display - Acquisition - Mobile,Bundle,overall,1.593596215,0.3,0.15,333670,4955,0.003873961,1,552.72898,0.837746987
-Syracuse,Hispanic - DM,Bundle,overall,1.030385914,0.3,0.15,1430.95,4955,1,1,710.6871429,0.595965445
-Other,Online Display - Awareness - Display,Bundle,overall,0.177428994,0.3,0.15,255070,4955,0.005559009,1,473.5789587,0.078606593
-Other,Online Display - Awareness - Mobile,Bundle,overall,0.025318799,0.3,0.75,55633,4955,0.003641989,1,42.28106188,0.02404721
-Other,Online Display - Awareness - OLV,Bundle,overall,0.519012186,3,0.6,41882,4955,0.038566186,1,477.4842992,0.510050049
-Other,Radio,Bundle,overall,6.668852686,0.3,0.3,8.2,4955,549.3902439,1,4505,6.498635695
-Other,Direct Mail,Bundle,overall,3.03010059,2,0.6,14303.65514,4955,0.396118713,1,2714.813908,3.018769804
-Other,Newspaper,Bundle,overall,1.076384268,1,0.15,194509,4955,0.271524648,1,12684.817,0.465575677
-Other,Shared Mail,Bundle,overall,2.357424103,1,0.9,849991,4955,0.023235569,1,728.3805,1.637539045
-Other,Online Display - Acquisition - Display,Bundle,overall,0.20954419,0.6,0.75,642969,4955,0.002634561,1,1084.283995,0.209524088
-Other,Online Display - Acquisition - Mobile,Bundle,overall,1.093247887,0.3,0.15,176687,4955,0.003819254,1,188.4303341,0.423944597
-Other,Hispanic - DM,Bundle,overall,0.470562361,0.3,0.15,478.15,4955,1,1,296.5988571,0.309670328
-Albany,TV Cable,Bundle,overall,1.113556421,0.3,0.45,1351.5,4955,1,1,1111.8,1.106214665
-Albany,Online Display - Awareness - Display,Bundle,overall,1.541962252,0.3,0.15,1329362,4955,0.005595985,1,2083.747417,0.599376886
-Albany,Online Display - Awareness - Mobile,Bundle,overall,0.053688272,0.3,0.75,158431,4955,0.00376405,1,186.0366723,0.053047165
-Albany,Online Display - Awareness - OLV,Bundle,overall,0.966005581,3,0.6,120361,4955,0.072806577,1,2059.736192,0.932551738
-Albany,DRTV,Bundle,overall,1.570916759,0.3,0.15,86.02,4955,114.1128447,1,5886.035625,1.014717266
-Albany,Direct Mail,Bundle,overall,4.614270962,2,0.6,18793.72527,4955,0.375476123,1,2937.616988,4.582884894
-Albany,Newspaper,Bundle,overall,0.865447417,1,0.15,110000,4955,0.145826618,1,11822.06667,0.695388077
-Albany,Shared Mail,Bundle,overall,17.26728088,1,0.9,97950,4955,0.037804571,1,2930.931667,17.26728078
-Albany,Online Display - Acquisition - Display,Bundle,overall,2.730943419,0.6,0.75,5088177,4955,0.002330804,1,4770.849579,2.723850779
-Albany,Online Display - Acquisition - Mobile,Bundle,overall,1.035418167,0.3,0.15,702186,4955,0.003102702,1,829.0934702,0.503092305
-Albany,Hispanic - DM,Bundle,overall,0.586271033,0.3,0.15,733.27,4955,1,1,364.1822857,0.339094041
-Palm Springs,TV Cable,Bundle,overall,0.850298506,0.3,0.45,4432.75,4955,1,1,3016.022619,0.837162859
-Palm Springs,TV Spot,Bundle,overall,3.571990332,2,0.15,18203.6,4955,1,1,10020.46011,2.72230156
-Palm Springs,Online Display - Awareness - Display,Bundle,overall,0.633216863,0.3,0.15,440948,4955,0.003381065,1,442.0070281,0.256944645
-Palm Springs,Online Display - Awareness - Mobile,Bundle,overall,0.039690959,0.3,0.75,49456,4955,0.00333986,1,39.46232442,0.038382776
-Palm Springs,Online Display - Awareness - OLV,Bundle,overall,0.81117027,3,0.6,113902,4955,0.026473784,1,445.6520126,0.725062642
-Palm Springs,Radio,Bundle,overall,0.398833271,0.3,0.3,89.4,4955,13.12026836,1,971.2788889,0.37998747
-Palm Springs,DRTV,Bundle,overall,1.269006899,0.3,0.15,112.82,4955,90.20946133,1,5620.7925,0.782206167
-Palm Springs,Direct Mail,Bundle,overall,3.065344246,2,0.6,9844.084876,4955,0.408902674,1,1773.781089,3.048834847
-Palm Springs,Shared Mail,Bundle,overall,1.590644388,1,0.9,120455,4955,0.019674608,1,839.6873171,1.590416595
-Palm Springs,Online Display - Acquisition - Display,Bundle,overall,2.045983095,0.6,0.75,1204489,4955,0.001714469,1,1011.998396,2.044411335
-Palm Springs,Online Display - Acquisition - Mobile,Bundle,overall,0.794444068,0.3,0.15,151288,4955,0.003289477,1,175.8683118,0.366497184
-Palm Springs,Hispanic - DM,Bundle,overall,0.348774083,0.3,0.15,1118.35,4955,1,1,563.274,0.20347077
-Palm Springs,Hispanic - Shared Mail,Bundle,overall,0.043301022,0.3,0.9,5907.83,4955,1,1,728.084878,0.041002197
+sales1_name,chan2_name,chan1_name,dma1_name,all_name,spend,decomp,max,cps,hl,hrf,wks
+Freedom Card - New Applications,Paid Search,Multicard,National,overall,198879.3408,7982.840683,131107,1.957298839,0.3,0.6,1
+Freedom Card - New Applications,Paid Search,Consumer,National,overall,166738.6035,1663.972242,579287,0.538227198,0.6,0.3,1
+Freedom Card - New Applications,Magazine,Freedom,National,overall,11090.29167,206.5986494,5249405,0.039609181,2,0.6,1
+Freedom Card - New Applications,Television,Consumer,National,overall,1253702.03,1508.737113,2439773.3,1,3,0.45,1
+Freedom Card - New Applications,Television,Freedom,National,overall,636601.4494,4842.589011,81.6008073,21107.96999,3,0.6,1
+Freedom Card - New Applications,Television,Sapphire,National,overall,655473.1438,1468.386498,104.9005109,17729.75843,3,0.6,1
+Freedom Card - New Applications,Online Display,Freedom,National,overall,78379.72854,1032.935079,80454855,0.008120951,0.01,0.3,1
+Freedom Card - New Applications,Online Video,Freedom,National,overall,98446.13958,1125.270093,29198871,0.014754522,0.6,0.3,1
+Freedom Card - New Applications,Direct Mail,Freedom,National,overall,1573462.217,10769.61992,14162618,0.438161596,0.6,0.45,1
+Freedom Card - New Applications,Direct Mail,Consumer,National,overall,1567480.208,1094.518055,14309581,0.563948789,0.3,0.05,1
+Ink Card - New Applications,Television,Ink,National,overall,424056.6208,641.5414841,11.85065332,137406.6177,1,0.6,1
+Ink Card - New Applications,Online Display,Ink,National,overall,163116.1263,1246.144089,96358722,0.003943428,0.3,0.6,1
+Ink Card - New Applications,Paid Search,Ink,National,overall,27995.78813,283.7659423,8471,7.317207445,3,0.15,1
+Ink Card - New Applications,Paid Search,Multicard,National,overall,82563.00729,248.1982435,131107,0.972202097,0.01,0.3,1
+Ink Card - New Applications,Direct Mail,Ink,National,overall,437898.5835,808.3123597,7402430,0.683361067,2,0.15,1
+Slate Card - New Applications,Television,Freedom,National,overall,636601.4494,982.7142624,81.6008073,21107.96999,5,0.15,1
+Slate Card - New Applications,Online Display,Sapphire,National,overall,105122.1873,166.648619,226727548,0.004731433,0.3,0.05,1
+Slate Card - New Applications,Paid Search,Multicard,National,overall,198879.3408,5247.436367,169802,1.957298839,0.01,0.15,1
+Slate Card - New Applications,Direct Mail,Slate,National,overall,1730479.326,5122.048042,18074490,0.328408769,0.01,0.05,1
+Sapphire Card - New Applications,Newspaper,Partner,National,overall,34139.28708,28.98571061,1.384589084,265689.8235,0.1,0.15,1
+Sapphire Card - New Applications,Paid Search,Multicard,National,overall,198879.3408,2716.432546,169802,1.957298839,0.01,0.3,1
+Sapphire Card - New Applications,Television,Freedom,National,overall,636601.4494,643.4411636,81.6008073,21107.96999,4,0.15,1
+Sapphire Card - New Applications,Direct Mail,Sapphire,National,overall,525861.9437,1070.797062,3473887,0.963898147,3,0.45,1
+Sapphire Card - New Applications,Television,Sapphire,National,overall,655473.1438,781.0090072,104.9005109,17729.75843,5,0.3,1
+Sapphire Card - New Applications,Online Video,Sapphire,National,overall,253301.1617,522.4651825,37820152,0.019784837,0.3,0.3,1
+Sapphire Card - New Applications,Paid Search,Partner,National,overall,71059.54854,307.6284415,64025,1.802442001,0.6,0.15,1
+Sapphire Card - New Applications,Magazine,Sapphire,National,overall,102894.2042,321.3213922,9527768,0.079665759,1,0.15,1
+Sapphire Card - New Applications,Online Display,Sapphire,National,overall,105122.1873,224.0850662,226727548,0.004731433,0.3,0.3,1
+Business Checking - New Checking Accounts,Online Display,Business,National,overall,90933.07125,265.248626,47807739,0.005352086,0.6,0.3,1
+Business Checking - New Checking Accounts,Online Video,Business,National,overall,49997.51375,188.8753485,7018490,0.019931938,0.3,0.15,1
+Business Checking - New Checking Accounts,Television,Ink,National,overall,424056.6208,147.7315995,11.85065332,137406.6177,2,0.15,1
+Business Checking - New Checking Accounts,Online Display,Ink,National,overall,163116.1263,143.8125599,96358722,0.003943428,1,0.05,1
+Business Checking - New Checking Accounts,Radio,Business,National,overall,137755.799,177.5345941,1730.6,267.8666828,0.3,0.05,1
+Business Checking - New Checking Accounts,Newspaper,Business,National,overall,12140.04104,55.20660125,1663846,0.043741177,0.3,0.15,1
+Business Checking - New Checking Accounts,Paid Search,Consumer,National,overall,188661.4583,166.5211958,595901,0.593806978,3,0.1,1
+Business Checking - New Checking Accounts,Television,Consumer,National,overall,1253702.03,176.7829666,2439773.3,1,3,0.05,1
+Business Checking - New Checking Accounts,Direct Mail,Consumer,National,overall,1567480.208,560.6272875,14309581,0.563948789,4,0.35,1
+Freedom Card - New Applications,Affiliates,Freedom,National,overall,8584605.684,417114.83,80089,4.120995135,0.01,0.45,1
+Ink Card - New Applications,Affiliates,Ink,National,overall,1214234.495,65682.05822,56262,1.607016695,0.01,0.15,1
+Slate Card - New Applications,Affiliates,Slate,National,overall,2678929.622,412128.5786,34434,1.983244969,5,0.45,1
+Sapphire Card - New Applications,Affiliates,Sapphire,National,overall,1498713.935,158654.2768,30059,1.334889608,0.6,0.45,1

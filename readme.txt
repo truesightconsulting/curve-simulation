@@ -1,0 +1,1 @@
+for optimization curve, once finished, the b need to divided by cpp!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

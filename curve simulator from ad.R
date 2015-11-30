@@ -87,6 +87,7 @@ while(T & iter<10) {
   
   col_zero=which(a %in% 0)
   if (sum(col_zero)==0) {
+    print("Curves Fitting is complete.")
     break
   } else {
     for(i in col_zero) {
@@ -109,6 +110,7 @@ while(T & iter<10) {
     }
   }
 }
+
 final=data.frame(curve_fit_final[,dim,with=F],a=a,b=b)
 
 # a adjustment
@@ -125,6 +127,11 @@ match=match[!duplicated(match[,dim,with=F])]
 final=merge(final,match,by=c(dim),all.x=T)
 final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")], sep = "_"))
 setnames(final,"sp_current","sp")
+if (for.opt){
+  final=merge(final,ex.curve[,c(bdgt_dim,"cps"),with=F],by=bdgt_dim)
+  final$b=final$b*final$cps
+  setnames(final,"cps","cpp")
+}
 
 # export files
 write.csv(final,"sim_output_curve.csv",row.names=F)

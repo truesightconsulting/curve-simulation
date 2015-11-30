@@ -83,7 +83,8 @@ if(round(nrow(curve_fit_final)/20)==0) int=5 else int=round(nrow(curve_fit_final
 iter=0
 while(T & iter<10) {
   iter=iter+1
-  learn.rate.start=learn.rate.start/10
+  if (iter %% 2==0) learn.rate.start=learn.rate.start/10 else learn.rate.start=learn.rate.start*10
+  
   col_zero=which(a %in% 0)
   if (sum(col_zero)==0) {
     break

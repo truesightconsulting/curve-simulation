@@ -128,7 +128,7 @@ final=merge(final,match,by=c(dim),all.x=T)
 final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")], sep = "_"))
 setnames(final,"sp_current","sp")
 if (for.opt){
-  final=merge(final,ex.curve[,c(bdgt_dim,"cps"),with=F],by=bdgt_dim)
+  final=merge(final,unique(ex.curve[,c(bdgt_dim,"cps"),with=F]),by=bdgt_dim,all.x=T)
   final$b=final$b*final$cps
   setnames(final,"cps","cpp")
 }

@@ -128,7 +128,10 @@ final=merge(final,match,by=c(dim),all.x=T)
 final$dim=do.call(paste, c(final[paste(as.vector(do.call(cbind,strsplit(dim,"_id"))),"_name",sep="")], sep = "_"))
 setnames(final,"sp_current","sp")
 if (for.opt){
-  final=merge(final,unique(ex.curve[,c(bdgt_dim,"cps"),with=F]),by=bdgt_dim,all.x=T)
+  cps.table=data.frame(unique(ex.curve[,c(bdgt_dim,"cps"),with=F]))
+  cps.table$bdgt_id=do.call(paste, c(cps.table[bdgt_dim1], sep = "_"))
+  cps.table=cps.table[!duplicated(cps.table$bdgt_id),]
+  final=merge(final,data.table(cps.table),by="bdgt_id",all.x=T)
   final$b=final$b*final$cps
   setnames(final,"cps","cpp")
 }

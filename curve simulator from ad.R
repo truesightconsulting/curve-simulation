@@ -15,6 +15,8 @@ calc_ad=function(x){
                                                                                         (ex.curve$wks * ex.curve$max) * (-log(1 - ex.curve$hrf)) * 10))))}
   ad(x1=ad(x1=rep(0,length(ex.curve$wks)),x2=x),x2=x)
 }
+int.index=which(sapply(ex.curve,is.numeric))
+for (k in int.index) set(ex.curve, j=k, value=as.numeric(ex.curve[[k]]))
 ad=calc_ad(ex.curve$spend)
 ex.curve$beta=ex.curve$decomp/ad
 # create id

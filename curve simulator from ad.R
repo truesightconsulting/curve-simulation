@@ -4,8 +4,7 @@
 # library(data.table);library(bit64)
 # setwd("d:\\Archives\\Git\\curve-simulation\\")
 # learn.rate.start=1e-5 # the start point of learn rate for fitting curves (vary from curve file to curve file)
-ex.curve=fread("sim_modelinput_curve.csv")
-ex.dim=fread("sim_input_setup.csv")
+
 ##########################################################################################
 # Code part
 ##########################################################################################

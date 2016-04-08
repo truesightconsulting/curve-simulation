@@ -22,6 +22,9 @@ for (i in names(ex.curve)){
   for (k in int.index) set(ex.curve, j=k, value=as.numeric(ex.curve[[k]]))
   ad=calc_ad(ex.curve$spend)
   ex.curve$beta=ex.curve$decomp/ad
+  ex.curve$a=ex.curve$beta
+  ex.curve$ad=ad
+  ex.curve=ex.curve[,b:=-log(1-ad)/spend]
   if (!is.refit){
     write.csv(ex.curve,"sim_output_curve.csv",row.names=F)
   }else{

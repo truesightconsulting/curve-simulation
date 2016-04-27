@@ -9,9 +9,15 @@
 # Code part
 ##########################################################################################
 # check comma
+comma.check=F
 for (i in names(ex.curve)){
-  if(any(grepl(",",ex.curve[[i]]))) stop("Error: There is comma in the file.")
-}else{
+  if(any(grepl(",",ex.curve[[i]]))) {
+    comma.check=T
+    stop("Error: There is comma in the file.")
+  }
+}
+
+if (!comma.check){
   # generate npv points
   calc_ad=function(x){
     ad=function(x1,x2){(1 - ((1 - x1 * exp(log(0.5) / ex.curve$hl)) / (exp(1) ^ ((x2/ex.curve$cps) / 
